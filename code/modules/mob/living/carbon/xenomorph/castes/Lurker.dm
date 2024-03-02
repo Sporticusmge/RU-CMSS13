@@ -15,7 +15,7 @@
 
 	attack_delay = 2 // VERY high slash damage, but attacks relatively slowly
 
-	available_strains = list(/datum/xeno_strain/vampire)
+	available_strains = list(/datum/xeno_strain/stalker, /datum/xeno_strain/vampire)
 	behavior_delegate_type = /datum/behavior_delegate/lurker_base
 
 	deevolves_to = list(XENO_CASTE_RUNNER)
