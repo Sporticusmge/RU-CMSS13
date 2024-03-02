@@ -81,12 +81,12 @@
 	},
 /area/template_noop)
 "R" = (
-/obj/item/fuel_cell{
+/obj/item/fuelCell{
 	fuel_amount = 0;
 	icon_state = "cell-empty";
 	pixel_x = 7
 	},
-/obj/item/fuel_cell{
+/obj/item/fuelCell{
 	fuel_amount = 0;
 	icon_state = "cell-empty";
 	pixel_x = -7;

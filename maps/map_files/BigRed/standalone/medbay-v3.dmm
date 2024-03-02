@@ -108,12 +108,32 @@
 	},
 /area/bigredv2/outside/medical)
 "as" = (
+/obj/structure/surface/table,
 /obj/structure/pipes/vents/pump,
+/obj/item/device/autopsy_scanner,
 /turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidfloor"
+	icon_state = "dark"
 	},
-/area/bigredv2/outside/n)
+/area/bigredv2/outside/medical)
+"at" = (
+/turf/open/floor{
+	icon_state = "dark"
+	},
+/area/bigredv2/outside/medical)
+"au" = (
+/obj/structure/morgue{
+	dir = 8
+	},
+/turf/open/floor{
+	icon_state = "dark"
+	},
+/area/bigredv2/outside/medical)
+"av" = (
+/obj/structure/morgue,
+/turf/open/floor{
+	icon_state = "dark"
+	},
+/area/bigredv2/outside/medical)
 "aw" = (
 /obj/structure/machinery/chem_dispenser,
 /turf/open/floor{
@@ -184,6 +204,13 @@
 /obj/structure/machinery/computer/med_data,
 /turf/open/floor{
 	icon_state = "whitegreenfull"
+	},
+/area/bigredv2/outside/medical)
+"aG" = (
+/obj/structure/machinery/optable,
+/obj/structure/pipes/standard/simple/hidden/green,
+/turf/open/floor{
+	icon_state = "dark"
 	},
 /area/bigredv2/outside/medical)
 "aH" = (
@@ -361,10 +388,11 @@
 	},
 /area/bigredv2/outside/medical)
 "bh" = (
-/turf/open/mars_cave{
-	icon_state = "mars_dirt_4"
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor{
+	icon_state = "dark"
 	},
-/area/bigredv2/outside/n)
+/area/bigredv2/outside/medical)
 "bi" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor{
@@ -469,10 +497,10 @@
 "bw" = (
 /obj/structure/pipes/standard/simple/hidden/green,
 /turf/open/floor{
-	dir = 4;
-	icon_state = "asteroidwarning"
+	dir = 8;
+	icon_state = "damaged2"
 	},
-/area/bigredv2/outside/n)
+/area/bigredv2/outside/medical)
 "bx" = (
 /obj/item/stack/rods,
 /turf/open/floor{
@@ -527,6 +555,15 @@
 /obj/effect/landmark/corpsespawner/wygoon,
 /turf/open/floor{
 	icon_state = "platingdmg1"
+	},
+/area/bigredv2/outside/medical)
+"bF" = (
+/obj/structure/machinery/camera/autoname{
+	network = list("interrogation")
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor{
+	icon_state = "dark"
 	},
 /area/bigredv2/outside/medical)
 "bG" = (
@@ -595,12 +632,10 @@
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 5
 	},
-/obj/structure/surface/table,
 /turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidfloor"
+	icon_state = "platingdmg1"
 	},
-/area/bigredv2/outside/n)
+/area/bigredv2/outside/medical)
 "bP" = (
 /obj/structure/pipes/standard/simple/hidden/green{
 	dir = 10
@@ -610,11 +645,12 @@
 	},
 /area/bigredv2/outside/medical)
 "bQ" = (
+/obj/structure/machinery/light,
 /turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidwarning"
+	dir = 8;
+	icon_state = "damaged5"
 	},
-/area/bigredv2/outside/n)
+/area/bigredv2/outside/medical)
 "bR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/shard,
@@ -704,15 +740,10 @@
 	},
 /area/bigredv2/outside/medical)
 "cf" = (
-/obj/effect/decal/cleanable/blood{
-	icon_state = "gib6"
-	},
-/obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor/colony{
-	name = "\improper Medical Clinic"
-	},
 /obj/structure/pipes/standard/simple/hidden/green,
+/obj/item/stack/sheet/metal,
 /turf/open/floor{
-	icon_state = "delivery"
+	icon_state = "platingdmg1"
 	},
 /area/bigredv2/outside/medical)
 "cg" = (
@@ -766,14 +797,14 @@
 	},
 /area/bigredv2/outside/medical)
 "cn" = (
-/obj/structure/pipes/standard/simple/hidden/green{
-	dir = 10
+/obj/structure/machinery/light{
+	dir = 1
 	},
+/obj/item/stack/rods,
 /turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidwarning"
+	icon_state = "platingdmg1"
 	},
-/area/bigredv2/outside/n)
+/area/bigredv2/outside/medical)
 "co" = (
 /obj/structure/window_frame/solaris,
 /obj/item/stack/sheet/metal,
@@ -2019,13 +2050,6 @@
 	icon_state = "platingdmg1"
 	},
 /area/bigredv2/outside/medical)
-"gS" = (
-/obj/structure/machinery/light,
-/turf/open/floor{
-	dir = 1;
-	icon_state = "asteroidwarning"
-	},
-/area/bigredv2/outside/n)
 "hn" = (
 /turf/open/floor{
 	dir = 1;
@@ -2033,13 +2057,9 @@
 	},
 /area/bigredv2/outside/medical)
 "om" = (
+/obj/effect/landmark/objective_landmark/close,
 /turf/open/floor{
-	icon_state = "asteroidwarning"
-	},
-/area/bigredv2/outside/n)
-"CW" = (
-/turf/open/floor{
-	icon_state = "delivery"
+	icon_state = "dark"
 	},
 /area/bigredv2/outside/medical)
 "DL" = (
@@ -2611,8 +2631,8 @@ hn
 (20,1,1) = {"
 af
 as
-bw
-bw
+aG
+bi
 bw
 bO
 ce
@@ -2638,11 +2658,11 @@ hn
 "}
 (21,1,1) = {"
 af
-om
-bh
-bh
-bh
-cn
+at
+ax
+aU
+ai
+bP
 cf
 cm
 bi
@@ -2666,12 +2686,12 @@ hn
 "}
 (22,1,1) = {"
 af
-om
-bh
-bh
-bh
-bQ
-CW
+at
+at
+aM
+bu
+aT
+ab
 aT
 bu
 cN
@@ -2695,12 +2715,12 @@ aa
 (23,1,1) = {"
 af
 om
-bh
+at
 bh
 bh
 bQ
-ac
-bK
+aa
+cn
 an
 bP
 cZ
@@ -2722,12 +2742,12 @@ aa
 "}
 (24,1,1) = {"
 af
-om
-bh
-bh
-bh
-bQ
-ac
+au
+au
+au
+au
+bF
+aa
 ax
 cx
 cQ
@@ -2750,12 +2770,12 @@ eV
 "}
 (25,1,1) = {"
 af
-om
-bh
-bh
-bh
-bQ
-ac
+av
+av
+av
+av
+at
+aa
 bz
 cy
 cR
@@ -2778,11 +2798,11 @@ am
 "}
 (26,1,1) = {"
 af
-om
-bh
-bh
-bh
-gS
+at
+at
+at
+at
+at
 aa
 ap
 ap

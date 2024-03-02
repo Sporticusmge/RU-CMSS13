@@ -430,15 +430,6 @@
 	icon_state = "wood"
 	},
 /area/bigredv2/outside/admin_building)
-"mq" = (
-/obj/structure/window/framed/solaris/reinforced,
-/obj/structure/machinery/door/poddoor/shutters/almayer{
-	dir = 4;
-	id = "Operations";
-	name = "\improper Operations Shutters"
-	},
-/turf/open/floor/plating,
-/area/bigredv2/outside/admin_building)
 "rv" = (
 /obj/item/ammo_magazine/rifle{
 	current_rounds = 0

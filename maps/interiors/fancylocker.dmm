@@ -1,97 +1,96 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/closed/wall/wood,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "b" = (
 /turf/open/floor/wood,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "c" = (
 /obj/effect/landmark/interior/spawn/entrance/step_toward{
 	dir = 8;
-	exit_type = /obj/structure/interior_exit/fancy;
-	tag = "fancy"
+	exit_type = /obj/structure/interior_exit/fancy
 	},
 /turf/open/floor/wood,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "d" = (
 /turf/open/floor/carpet/edge{
 	dir = 9
 	},
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "e" = (
 /turf/open/floor/carpet/edge{
 	dir = 1
 	},
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "f" = (
 /turf/open/floor/carpet/edge{
 	dir = 5
 	},
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "g" = (
 /turf/open/floor/carpet/edge{
 	dir = 8
 	},
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "h" = (
 /obj/structure/bed/sofa/south/white/left,
 /turf/open/floor/carpet,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "i" = (
 /obj/structure/bed/sofa/south/white,
 /turf/open/floor/carpet,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "j" = (
 /obj/structure/bed/sofa/south/white/right,
 /turf/open/floor/carpet,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "k" = (
 /turf/open/floor/carpet/edge{
 	dir = 4
 	},
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "l" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/device/flashlight/lamp/green,
 /turf/open/floor/wood,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "m" = (
 /turf/open/floor/carpet/edge{
 	dir = 10
 	},
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "n" = (
 /turf/open/floor/carpet/edge,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "o" = (
 /turf/open/floor/carpet/edge{
 	dir = 6
 	},
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "p" = (
 /obj/structure/surface/table/woodentable/fancy,
 /turf/open/floor/carpet,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "q" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "pottedplant_10"
 	},
 /turf/open/floor/wood,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "r" = (
 /obj/structure/coatrack,
 /turf/open/floor/wood,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "s" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/chem_dispenser/soda,
 /turf/open/floor/wood,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "t" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/structure/machinery/chem_dispenser/soda/beer,
 /turf/open/floor/wood,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "u" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/reagent_container/food/snacks/milosoup{
@@ -104,12 +103,12 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "v" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/reagent_container/food/snacks/appletart,
 /turf/open/floor/wood,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "w" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/reagent_container/food/snacks/popcorn{
@@ -125,33 +124,33 @@
 	pixel_x = 5
 	},
 /turf/open/floor/wood,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "x" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/ashtray/bronze,
 /turf/open/floor/carpet,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "y" = (
 /obj/structure/surface/table/woodentable/fancy,
 /obj/item/clothing/mask/cigarette/cigar/cohiba,
 /obj/item/tool/lighter/zippo,
 /turf/open/floor/carpet,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "z" = (
 /obj/structure/bed/chair/wood/wings{
 	icon_state = "wooden_chair_wings";
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "A" = (
 /obj/structure/machinery/disposal,
 /turf/open/floor/wood,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 "B" = (
 /obj/structure/machinery/light,
 /turf/open/floor/carpet/edge,
-/area/interior/fancylocker)
+/area/vehicle/apc)
 
 (1,1,1) = {"
 a
