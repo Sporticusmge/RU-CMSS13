@@ -25,31 +25,33 @@
 	icon_state = "wall13"
 	},
 /area/shuttle/escape_pod)
-"i" = (
-/obj/structure/machinery/cryopod/evacuation,
-/obj/structure/sign/safety/cryo{
-	pixel_x = -18
-	},
-/turf/open/shuttle/escapepod,
-/area/shuttle/escape_pod)
 "s" = (
 /turf/closed/shuttle/escapepod{
 	icon_state = "wall2"
 	},
 /area/shuttle/escape_pod)
-"u" = (
-/obj/structure/machinery/cryopod/evacuation,
-/turf/open/shuttle/escapepod,
+"t" = (
+/turf/open/shuttle/escapepod{
+	icon_state = "floor0";
+	dir = 8
+	},
 /area/shuttle/escape_pod)
-"v" = (
-/obj/structure/machinery/computer/shuttle/escape_pod_panel/liaison{
-	pixel_y = 30
+"x" = (
+/obj/structure/machinery/cryopod/evacuation,
+/obj/structure/sign/safety/cryo{
+	pixel_x = -18
 	},
 /turf/open/shuttle/escapepod{
-	icon_state = "floor0"
+	icon_state = "floor4"
 	},
 /area/shuttle/escape_pod)
-"y" = (
+"A" = (
+/obj/structure/machinery/cryopod/evacuation,
+/turf/open/shuttle/escapepod{
+	icon_state = "floor4"
+	},
+/area/shuttle/escape_pod)
+"B" = (
 /obj/structure/machinery/door/airlock/evacuation/liaison{
 	name = "\improper Evacuation Airlock CL-1";
 	id_tag = "cl_evac"
@@ -68,9 +70,12 @@
 	icon_state = "wall6"
 	},
 /area/shuttle/escape_pod)
-"K" = (
+"L" = (
+/obj/structure/machinery/computer/shuttle/escape_pod_panel/liaison{
+	pixel_y = 30
+	},
 /turf/open/shuttle/escapepod{
-	icon_state = "floor10"
+	icon_state = "floor0"
 	},
 /area/shuttle/escape_pod)
 "O" = (
@@ -103,22 +108,22 @@ a
 "}
 (2,1,1) = {"
 Q
-u
-i
-u
+A
+x
+A
 E
 "}
 (3,1,1) = {"
 s
-v
+L
 b
-K
+t
 E
 "}
 (4,1,1) = {"
 g
 O
 O
-y
+B
 I
 "}

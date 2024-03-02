@@ -15,6 +15,21 @@
 	icon_state = "rasputin15"
 	},
 /area/shuttle/drop2/sulaco)
+"aJ" = (
+/obj/structure/bed/chair/vehicle{
+	pixel_x = -8;
+	dir = 4;
+	layer = 3.1
+	},
+/obj/structure/bed/chair/vehicle{
+	pixel_x = -8;
+	dir = 4;
+	pixel_y = 13
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
 "bc" = (
 /obj/structure/shuttle/part/dropship2/transparent/left_outer_bottom_wing,
 /turf/template_noop,
@@ -61,10 +76,6 @@
 	icon_state = "73"
 	},
 /area/shuttle/drop2/sulaco)
-"fQ" = (
-/obj/structure/shuttle/part/dropship2/left_inner_wing_connector,
-/turf/open/space/basic,
-/area/shuttle/drop2/sulaco)
 "gD" = (
 /turf/closed/shuttle/dropship2/transparent{
 	icon_state = "38"
@@ -79,28 +90,12 @@
 	icon_state = "54"
 	},
 /area/shuttle/drop2/sulaco)
-"gH" = (
-/obj/effect/attach_point/electronics/dropship2{
-	dir = 1;
-	attach_id = 6
-	},
-/obj/structure/shuttle/part/dropship2/transparent/inner_right_weapons,
-/turf/template_noop,
-/area/shuttle/drop2/sulaco)
 "gP" = (
 /obj/structure/bed/chair/dropship/pilot{
 	dir = 1
 	},
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin15"
-	},
-/area/shuttle/drop2/sulaco)
-"hn" = (
-/obj/effect/attach_point/crew_weapon/dropship2{
-	attach_id = 8
-	},
-/turf/open/shuttle/dropship{
-	icon_state = "rasputin3"
 	},
 /area/shuttle/drop2/sulaco)
 "it" = (
@@ -115,10 +110,6 @@
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin15"
 	},
-/area/shuttle/drop2/sulaco)
-"iI" = (
-/obj/structure/shuttle/part/dropship2/right_inner_wing_connector,
-/turf/open/space/basic,
 /area/shuttle/drop2/sulaco)
 "jc" = (
 /obj/item/device/radio/intercom/normandy{
@@ -137,6 +128,15 @@
 "ko" = (
 /obj/structure/shuttle/part/dropship2/bottom_right_wall,
 /turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"kL" = (
+/obj/structure/machinery/door/airlock/hatch/cockpit/two{
+	dir = 1
+	},
+/obj/structure/blocker/forcefield/multitile_vehicles,
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
 /area/shuttle/drop2/sulaco)
 "kP" = (
 /obj/structure/shuttle/part/dropship2/transparent/middle_right_wing,
@@ -175,14 +175,6 @@
 	icon_state = "62"
 	},
 /area/shuttle/drop2/sulaco)
-"mn" = (
-/obj/effect/attach_point/fuel/dropship2{
-	attach_id = 10
-	},
-/turf/closed/shuttle/dropship2/transparent{
-	icon_state = "28"
-	},
-/area/shuttle/drop2/sulaco)
 "mz" = (
 /obj/structure/machinery/camera/autoname/almayer/dropship_two{
 	dir = 4;
@@ -200,23 +192,10 @@
 	icon_state = "rasputin15"
 	},
 /area/shuttle/drop2/sulaco)
-"mA" = (
-/obj/structure/machinery/door/airlock/multi_tile/almayer/dropshiprear/dropshipside/ds2{
-	id = "port_door";
-	dir = 2
-	},
-/turf/open/shuttle/dropship{
-	icon_state = "rasputin15"
-	},
-/area/shuttle/drop2/sulaco)
 "nq" = (
 /obj/effect/attach_point/weapon/dropship2/left_fore,
 /obj/structure/shuttle/part/dropship2/transparent/outer_left_weapons,
 /turf/template_noop,
-/area/shuttle/drop2/sulaco)
-"nS" = (
-/obj/structure/shuttle/part/dropship2/lower_left_wall,
-/turf/open/space/basic,
 /area/shuttle/drop2/sulaco)
 "oc" = (
 /obj/structure/shuttle/part/dropship2/transparent/nose_top_right,
@@ -254,19 +233,6 @@
 	icon_state = "rasputin5"
 	},
 /area/shuttle/drop2/sulaco)
-"rr" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "N";
-	pixel_y = 1
-	},
-/obj/effect/decal/warning_stripes{
-	icon_state = "E";
-	pixel_x = 1
-	},
-/turf/open/shuttle/dropship{
-	icon_state = "rasputin15"
-	},
-/area/shuttle/drop2/sulaco)
 "rw" = (
 /obj/structure/shuttle/part/dropship2/nose_front_right,
 /turf/template_noop,
@@ -276,22 +242,42 @@
 	icon_state = "22"
 	},
 /area/shuttle/drop2/sulaco)
-"uk" = (
-/obj/structure/shuttle/part/dropship2/transparent/upper_left_wing,
-/turf/template_noop,
-/area/shuttle/drop2/sulaco)
-"vd" = (
-/turf/open/shuttle/dropship{
-	icon_state = "rasputin3"
-	},
-/area/shuttle/drop2/sulaco)
-"vh" = (
+"tz" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/dropshiprear/dropshipside/ds2{
 	dir = 1;
 	id = "starboard_door"
 	},
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
+"uk" = (
+/obj/structure/shuttle/part/dropship2/transparent/upper_left_wing,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"uu" = (
+/obj/structure/shuttle/part/dropship2/lower_right_wall,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"uE" = (
+/obj/effect/attach_point/crew_weapon/dropship2{
+	attach_id = 9
+	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/attach_point/crew_weapon/dropship2/floor{
+	attach_id = 9
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin3"
+	},
+/area/shuttle/drop2/sulaco)
+"vd" = (
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin3"
 	},
 /area/shuttle/drop2/sulaco)
 "wX" = (
@@ -328,6 +314,19 @@
 	icon_state = "27"
 	},
 /area/shuttle/drop2/sulaco)
+"zS" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "N";
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "E";
+	pixel_x = 1
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
 "AN" = (
 /turf/closed/shuttle/dropship2{
 	icon_state = "48"
@@ -336,14 +335,6 @@
 "Bb" = (
 /turf/closed/shuttle/dropship2{
 	icon_state = "56"
-	},
-/area/shuttle/drop2/sulaco)
-"Bg" = (
-/obj/effect/attach_point/crew_weapon/dropship2{
-	attach_id = 7
-	},
-/turf/open/shuttle/dropship{
-	icon_state = "rasputin3"
 	},
 /area/shuttle/drop2/sulaco)
 "Bi" = (
@@ -365,6 +356,22 @@
 /obj/structure/shuttle/part/dropship2/transparent/engine_left_cap,
 /turf/template_noop,
 /area/shuttle/drop2/sulaco)
+"Cj" = (
+/obj/effect/attach_point/crew_weapon/dropship2{
+	attach_id = 8
+	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/attach_point/crew_weapon/dropship2/floor{
+	attach_id = 8
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin3"
+	},
+/area/shuttle/drop2/sulaco)
 "Cl" = (
 /turf/closed/shuttle/dropship2{
 	icon_state = "42"
@@ -374,6 +381,26 @@
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin4"
 	},
+/area/shuttle/drop2/sulaco)
+"Cu" = (
+/obj/effect/attach_point/crew_weapon/dropship2{
+	attach_id = 7
+	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/attach_point/crew_weapon/dropship2/floor{
+	attach_id = 7
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin3"
+	},
+/area/shuttle/drop2/sulaco)
+"Da" = (
+/obj/structure/shuttle/part/dropship2/lower_left_wall,
+/turf/template_noop,
 /area/shuttle/drop2/sulaco)
 "Dy" = (
 /turf/closed/shuttle/dropship2/transparent{
@@ -429,11 +456,19 @@
 	icon_state = "78"
 	},
 /area/shuttle/drop2/sulaco)
+"HY" = (
+/obj/structure/shuttle/part/dropship2/left_outer_wing_connector,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
 "Iv" = (
 /obj/docking_port/mobile/marine_dropship/normandy,
 /turf/closed/shuttle/dropship2{
 	icon_state = "53"
 	},
+/area/shuttle/drop2/sulaco)
+"Ji" = (
+/obj/structure/shuttle/part/dropship2/left_inner_wing_connector,
+/turf/template_noop,
 /area/shuttle/drop2/sulaco)
 "Kl" = (
 /turf/closed/shuttle/dropship2{
@@ -470,6 +505,10 @@
 	icon_state = "19"
 	},
 /area/shuttle/drop2/sulaco)
+"LB" = (
+/obj/structure/shuttle/part/dropship2/right_inner_wing_connector,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
 "LJ" = (
 /obj/structure/bed/chair/dropship/pilot{
 	dir = 1
@@ -489,14 +528,6 @@
 "Mx" = (
 /obj/structure/shuttle/part/dropship2/transparent/nose_top_left,
 /turf/template_noop,
-/area/shuttle/drop2/sulaco)
-"MA" = (
-/obj/effect/attach_point/crew_weapon/dropship2{
-	attach_id = 9
-	},
-/turf/open/shuttle/dropship{
-	icon_state = "rasputin3"
-	},
 /area/shuttle/drop2/sulaco)
 "ME" = (
 /turf/closed/shuttle/dropship2/transparent{
@@ -525,12 +556,18 @@
 	icon_state = "37"
 	},
 /area/shuttle/drop2/sulaco)
-"NM" = (
-/obj/structure/shuttle/part/dropship2/left_outer_wing_connector,
-/turf/open/space/basic,
-/area/shuttle/drop2/sulaco)
-"Od" = (
+"Ob" = (
 /obj/effect/attach_point/fuel/dropship2{
+	pixel_x = -32;
+	attach_id = 11
+	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/attach_point/fuel/dropship2{
+	dir = 1;
 	pixel_x = -32;
 	attach_id = 11
 	},
@@ -540,6 +577,14 @@
 /area/shuttle/drop2/sulaco)
 "Ov" = (
 /obj/structure/shuttle/part/dropship2/transparent/right_inner_bottom_wing,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"OG" = (
+/obj/effect/attach_point/electronics/dropship2{
+	dir = 1;
+	attach_id = 6
+	},
+/obj/structure/shuttle/part/dropship2/transparent/inner_right_weapons,
 /turf/template_noop,
 /area/shuttle/drop2/sulaco)
 "OI" = (
@@ -598,10 +643,6 @@
 	icon_state = "14"
 	},
 /area/shuttle/drop2/sulaco)
-"QK" = (
-/obj/structure/shuttle/part/dropship2/lower_right_wall,
-/turf/open/space/basic,
-/area/shuttle/drop2/sulaco)
 "Rr" = (
 /turf/template_noop,
 /area/template_noop)
@@ -617,10 +658,6 @@
 /turf/closed/shuttle/dropship2{
 	icon_state = "51"
 	},
-/area/shuttle/drop2/sulaco)
-"RJ" = (
-/obj/structure/shuttle/part/dropship2/right_outer_wing_connector,
-/turf/open/space/basic,
 /area/shuttle/drop2/sulaco)
 "SB" = (
 /obj/structure/shuttle/part/dropship2/nose_front_left,
@@ -657,21 +694,6 @@
 	icon_state = "81"
 	},
 /area/shuttle/drop2/sulaco)
-"Uc" = (
-/obj/structure/bed/chair/vehicle{
-	pixel_x = -8;
-	dir = 4;
-	layer = 3.1
-	},
-/obj/structure/bed/chair/vehicle{
-	pixel_x = -8;
-	dir = 4;
-	pixel_y = 13
-	},
-/turf/open/shuttle/dropship{
-	icon_state = "rasputin15"
-	},
-/area/shuttle/drop2/sulaco)
 "Uu" = (
 /obj/structure/shuttle/part/dropship2/transparent/engine_right_exhaust,
 /turf/template_noop,
@@ -700,13 +722,6 @@
 	icon_state = "25"
 	},
 /area/shuttle/drop2/sulaco)
-"VW" = (
-/obj/structure/machinery/door/airlock/hatch/cockpit/two,
-/obj/structure/blocker/forcefield/multitile_vehicles,
-/turf/open/shuttle/dropship{
-	icon_state = "rasputin15"
-	},
-/area/shuttle/drop2/sulaco)
 "VZ" = (
 /obj/item/device/radio/intercom/normandy{
 	layer = 3.5;
@@ -717,8 +732,38 @@
 	icon_state = "rasputin15"
 	},
 /area/shuttle/drop2/sulaco)
+"Wi" = (
+/obj/effect/attach_point/fuel/dropship2{
+	attach_id = 10
+	},
+/obj/merge_conflict_marker{
+	name = "---Merge Conflict Marker---";
+	
+	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
+	},
+/obj/effect/attach_point/fuel/dropship2{
+	dir = 1;
+	attach_id = 10
+	},
+/turf/closed/shuttle/dropship2/transparent{
+	icon_state = "28"
+	},
+/area/shuttle/drop2/sulaco)
+"WT" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/dropshiprear/dropshipside/ds2{
+	id = "port_door";
+	dir = 2
+	},
+/turf/open/shuttle/dropship{
+	icon_state = "rasputin15"
+	},
+/area/shuttle/drop2/sulaco)
 "Xr" = (
 /obj/structure/shuttle/part/dropship2/transparent/engine_left_exhaust,
+/turf/template_noop,
+/area/shuttle/drop2/sulaco)
+"XJ" = (
+/obj/structure/shuttle/part/dropship2/right_outer_wing_connector,
 /turf/template_noop,
 /area/shuttle/drop2/sulaco)
 "ZK" = (
@@ -743,7 +788,7 @@ Rr
 Rr
 BG
 SQ
-mn
+Wi
 sk
 Xr
 Rr
@@ -760,10 +805,10 @@ OI
 GE
 lJ
 PJ
-mA
+WT
 jc
 pU
-nS
+Da
 yh
 Dy
 fm
@@ -784,8 +829,8 @@ mz
 SY
 PJ
 PJ
-Uc
-rr
+aJ
+zS
 Eo
 Cl
 SO
@@ -816,8 +861,8 @@ it
 SY
 it
 Kl
-fQ
-NM
+Ji
+HY
 "}
 (5,1,1) = {"
 LY
@@ -847,7 +892,7 @@ LY
 Bi
 MQ
 VZ
-VW
+kL
 GN
 bJ
 ZK
@@ -856,11 +901,11 @@ Bb
 Iv
 rc
 vd
-Bg
+Cu
 vd
-hn
+Cj
 vd
-MA
+uE
 PJ
 Rr
 Rr
@@ -908,14 +953,14 @@ it
 SY
 it
 QF
-iI
-RJ
+LB
+XJ
 "}
 (9,1,1) = {"
 Rr
 Rr
 Rr
-gH
+OG
 yl
 SY
 it
@@ -944,10 +989,10 @@ fI
 fx
 Tp
 PJ
-vh
+tz
 gG
 RG
-QK
+uu
 BG
 gD
 oW
@@ -973,7 +1018,7 @@ Rr
 Rr
 yh
 UP
-Od
+Ob
 zt
 Uu
 Rr
