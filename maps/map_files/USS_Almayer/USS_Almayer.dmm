@@ -5071,8 +5071,7 @@
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "sterile_green_corner"
-	},
-/area/almayer/shipboard/brig/surgery)
+	})
 "aAS" = (
 /obj/structure/machinery/cm_vending/sorted/medical/wall_med{
 	pixel_y = 25
@@ -12570,8 +12569,7 @@
 "bua" = (
 /turf/open/floor/almayer{
 	icon_state = "redcorner"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "buc" = (
 /obj/structure/largecrate/random/case/double,
 /turf/open/floor/almayer{
@@ -14230,8 +14228,7 @@
 /turf/open/floor/plating,
 /area/almayer/hallways/hangar)
 "bGb" = (
-/turf/closed/wall/almayer,
-/area/almayer/hallways/port_hallway)
+/turf/closed/wall/almayer)
 "bGc" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -19208,7 +19205,7 @@
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
-/area/almayer/hull/lower_hull/stern)
+/area/almayer/maint/hull/lower/l_a_p)
 "cuy" = (
 /obj/item/tool/warning_cone{
 	pixel_y = 13
@@ -19337,8 +19334,7 @@
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "cxC" = (
 /obj/structure/machinery/light,
 /turf/open/floor/almayer,
@@ -19347,17 +19343,7 @@
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/almayer{
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
-"cxL" = (
-/obj/structure/sign/safety/water{
-	pixel_x = 8;
-	pixel_y = 32
-	},
-/turf/open/floor/almayer{
-	icon_state = "plate"
-	},
-/area/almayer/hull/lower_hull/stern)
+	})
 "cxS" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -20342,8 +20328,7 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "sterile_green_corner"
-	},
-/area/almayer/shipboard/brig/surgery)
+	})
 "cOX" = (
 /obj/structure/machinery/light,
 /turf/open/floor/plating,
@@ -21189,7 +21174,6 @@
 /obj/item/device/toner,
 /obj/merge_conflict_marker{
 	name = "---Merge Conflict Marker---";
-	
 	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/structure/machinery/cm_vending/clothing/combat_correspondent,
@@ -21701,15 +21685,13 @@
 /obj/item/device/camera_film,
 /obj/merge_conflict_marker{
 	name = "---Merge Conflict Marker---";
-	
 	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/structure/machinery/photocopier,
 /turf/open/floor/almayer{
 	dir = 10;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "dmR" = (
 /obj/effect/glowshroom,
 /obj/effect/glowshroom{
@@ -21904,8 +21886,7 @@
 /turf/open/floor/almayer{
 	dir = 9;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "dpE" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
@@ -22099,13 +22080,6 @@
 	icon_state = "test_floor4"
 	},
 /area/almayer/hallways/lower/port_midship_hallway)
-"dsr" = (
-/obj/structure/sign/safety/hvac_old{
-	pixel_x = 8;
-	pixel_y = -32
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/hull/lower_hull/stern)
 "dsy" = (
 /turf/closed/wall/almayer,
 /area/almayer/shipboard/stern_point_defense)
@@ -22365,8 +22339,7 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "dwQ" = (
 /turf/closed/wall/almayer/outer,
 /area/almayer/hallways/lower/port_umbilical)
@@ -22525,8 +22498,7 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "dAq" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /obj/structure/disposalpipe/segment{
@@ -22947,8 +22919,7 @@
 /obj/structure/machinery/firealarm{
 	pixel_y = 28
 	},
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/shipboard/brig/main_office)
+/turf/open/floor/plating/plating_catwalk)
 "dGC" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/disposalpipe/segment{
@@ -23308,8 +23279,7 @@
 /obj/structure/machinery/recharger,
 /turf/open/floor/almayer{
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "dNb" = (
 /obj/structure/stairs/perspective{
 	dir = 1;
@@ -23418,7 +23388,6 @@
 	},
 /obj/merge_conflict_marker{
 	name = "---Merge Conflict Marker---";
-	
 	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/structure/surface/table/almayer,
@@ -23572,14 +23541,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/maint/hull/upper/p_bow)
-"dQM" = (
-/obj/structure/prop/invuln/overhead_pipe{
-	pixel_x = 12
-	},
-/turf/open/floor/almayer{
-	icon_state = "plate"
-	},
-/area/almayer/hull/lower_hull/stern)
 "dQV" = (
 /obj/structure/window/reinforced{
 	dir = 8;
@@ -24145,7 +24106,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/hull/lower_hull/stern)
+/area/almayer/maint/hull/lower/l_a_p)
 "ebd" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/plating_catwalk,
@@ -25251,7 +25212,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/hull/lower_hull/stern)
+/area/almayer/maint/hull/lower/l_a_p)
 "eua" = (
 /obj/structure/machinery/vending/cigarette,
 /turf/open/floor/almayer{
@@ -26052,12 +26013,6 @@
 	icon_state = "plate"
 	},
 /area/almayer/maint/hull/upper/u_a_p)
-"eFD" = (
-/obj/structure/prop/invuln/overhead_pipe{
-	pixel_x = 12
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/hull/lower_hull/stern)
 "eFK" = (
 /obj/structure/bed{
 	icon_state = "abed"
@@ -26573,8 +26528,7 @@
 	},
 /area/almayer/medical/lower_medical_medbay)
 "eRL" = (
-/turf/open/floor/almayer,
-/area/almayer/shipboard/brig/main_office)
+/turf/open/floor/almayer)
 "eRP" = (
 /obj/structure/reagent_dispensers/fueltank/gas/hydrogen{
 	anchored = 1
@@ -27870,8 +27824,7 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "fnI" = (
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
@@ -28133,8 +28086,7 @@
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
 	},
-/turf/open/floor/plating,
-/area/almayer/shipboard/brig/main_office)
+/turf/open/floor/plating)
 "fsa" = (
 /obj/structure/machinery/door/airlock/almayer/maint{
 	dir = 1
@@ -28384,8 +28336,7 @@
 /obj/item/storage/donut_box,
 /turf/open/floor/almayer{
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "fxp" = (
 /obj/structure/machinery/cm_vending/sorted/medical/blood,
 /turf/open/floor/almayer{
@@ -28850,8 +28801,7 @@
 /obj/structure/sign/safety/bulkhead_door{
 	pixel_x = -16
 	},
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/hull/upper_hull/u_f_p)
+/turf/open/floor/plating/plating_catwalk)
 "fGg" = (
 /obj/effect/decal/cleanable/blood/oil/streak,
 /turf/open/floor/almayer,
@@ -30118,8 +30068,7 @@
 /turf/open/floor/almayer{
 	dir = 4;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "gde" = (
 /obj/structure/machinery/camera/autoname/almayer{
 	dir = 8;
@@ -32155,9 +32104,6 @@
 	icon_state = "plate"
 	},
 /area/almayer/command/lifeboat)
-"gRc" = (
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/hull/lower_hull/stern)
 "gRd" = (
 /obj/structure/platform,
 /obj/structure/target{
@@ -33181,7 +33127,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/hull/lower_hull/stern)
+/area/almayer/maint/hull/lower/l_a_p)
 "hiY" = (
 /obj/structure/machinery/door_control{
 	id = "CMP Office Shutters";
@@ -34311,8 +34257,7 @@
 /turf/open/floor/almayer{
 	dir = 10;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "hDa" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -35363,7 +35308,6 @@
 	},
 /obj/merge_conflict_marker{
 	name = "---Merge Conflict Marker---";
-	
 	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/structure/disposalpipe/segment{
@@ -36028,8 +35972,7 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "igC" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -38701,12 +38644,6 @@
 "jeb" = (
 /turf/closed/wall/almayer,
 /area/almayer/squads/alpha_bravo_shared)
-"jej" = (
-/obj/structure/largecrate/random/case/double,
-/turf/open/floor/almayer{
-	icon_state = "plate"
-	},
-/area/almayer/hull/lower_hull/stern)
 "jeq" = (
 /obj/structure/surface/rack,
 /obj/item/storage/box/pillbottles{
@@ -39099,8 +39036,7 @@
 /obj/structure/closet/emcloset/legacy,
 /turf/open/floor/almayer{
 	icon_state = "cargo"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "jlA" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -40192,13 +40128,11 @@
 /obj/item/book/manual/surgery,
 /obj/item/book/manual/research_and_development,
 /obj/item/book/manual/medical_diagnostics_manual,
-/obj/item/book/manual/medical_cloning,
 /obj/structure/machinery/light{
 	dir = 4
 	},
 /obj/merge_conflict_marker{
 	name = "---Merge Conflict Marker---";
-	
 	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/structure/bookcase{
@@ -40234,12 +40168,6 @@
 	icon_state = "dark_sterile"
 	},
 /area/almayer/engineering/laundry)
-"jGJ" = (
-/obj/effect/landmark/yautja_teleport,
-/turf/open/floor/almayer{
-	icon_state = "plate"
-	},
-/area/almayer/hull/lower_hull/stern)
 "jGR" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W";
@@ -42035,12 +41963,6 @@
 	icon_state = "redfull"
 	},
 /area/almayer/engineering/lower/workshop/hangar)
-"kpI" = (
-/obj/structure/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/hull/lower_hull/stern)
 "kpQ" = (
 /obj/structure/machinery/door_control{
 	id = "engidorm";
@@ -42767,8 +42689,7 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer{
 	icon_state = "redcorner"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "kED" = (
 /obj/structure/machinery/alarm/almayer{
 	dir = 1
@@ -42860,8 +42781,18 @@
 	},
 /area/almayer/medical/containment/cell)
 "kHa" = (
-/turf/closed/wall/almayer,
-/area/almayer/shipboard/brig/surgery)
+/obj/structure/sign/safety/hazard{
+	pixel_x = 32;
+	pixel_y = 7
+	},
+/obj/structure/sign/safety/airlock{
+	pixel_x = 32;
+	pixel_y = -8
+	},
+/turf/open/floor/almayer{
+	icon_state = "plate"
+	},
+/area/almayer/maint/hull/lower/l_a_p)
 "kHd" = (
 /obj/structure/machinery/computer/arcade,
 /obj/item/prop/helmetgarb/spacejam_tickets{
@@ -43371,8 +43302,7 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "dark_sterile"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "kPp" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 9
@@ -43420,7 +43350,6 @@
 	},
 /obj/merge_conflict_marker{
 	name = "---Merge Conflict Marker---";
-	
 	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/structure/machinery/light{
@@ -44137,8 +44066,7 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "ldA" = (
 /obj/structure/surface/rack,
 /obj/item/tool/weldpack,
@@ -45442,8 +45370,7 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "redcorner"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "lzA" = (
 /obj/structure/machinery/sleep_console{
 	dir = 8
@@ -45468,8 +45395,7 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "lAb" = (
 /obj/structure/surface/table/almayer,
 /obj/item/toy/deck{
@@ -45598,8 +45524,7 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "lDh" = (
 /obj/structure/machinery/light{
 	dir = 4
@@ -46208,12 +46133,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/hallways/lower/starboard_midship_hallway)
-"lOm" = (
-/obj/structure/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/hull/lower_hull/stern)
 "lOr" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/firedoor/border_only/almayer,
@@ -46831,8 +46750,7 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "maI" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -47679,8 +47597,7 @@
 /turf/open/floor/almayer{
 	dir = 5;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "mqU" = (
 /obj/structure/pipes/vents/pump{
 	dir = 8;
@@ -48584,7 +48501,7 @@
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
-/area/almayer/hull/lower_hull/stern)
+/area/almayer/maint/hull/lower/l_a_s)
 "mId" = (
 /obj/structure/machinery/light/small{
 	dir = 1
@@ -48855,8 +48772,7 @@
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
 	},
-/turf/open/floor/almayer,
-/area/almayer/shipboard/brig/main_office)
+/turf/open/floor/almayer)
 "mLQ" = (
 /obj/structure/machinery/camera/autoname/almayer{
 	dir = 1;
@@ -48864,8 +48780,7 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "mLR" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -50132,8 +50047,7 @@
 /turf/open/floor/almayer{
 	dir = 4;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "njl" = (
 /turf/open/floor/almayer{
 	dir = 8;
@@ -51304,8 +51218,7 @@
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 10
 	},
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/shipboard/brig/main_office)
+/turf/open/floor/plating/plating_catwalk)
 "nFe" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -53164,7 +53077,6 @@
 	},
 /obj/merge_conflict_marker{
 	name = "---Merge Conflict Marker---";
-	
 	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/effect/decal/warning_stripes{
@@ -53656,8 +53568,7 @@
 "osB" = (
 /turf/open/floor/almayer{
 	allow_construction = 0
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "osM" = (
 /obj/effect/step_trigger/clone_cleaner,
 /obj/effect/decal/warning_stripes{
@@ -55475,8 +55386,7 @@
 /turf/open/floor/almayer{
 	dir = 6;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "oUu" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -56142,15 +56052,6 @@
 	icon_state = "mono"
 	},
 /area/almayer/medical/medical_science)
-"pgN" = (
-/obj/structure/sign/safety/hvac_old{
-	pixel_x = 8;
-	pixel_y = -32
-	},
-/turf/open/floor/almayer{
-	icon_state = "plate"
-	},
-/area/almayer/hull/lower_hull/stern)
 "pha" = (
 /obj/structure/machinery/photocopier,
 /turf/open/floor/almayer{
@@ -56415,8 +56316,7 @@
 /turf/open/floor/almayer{
 	dir = 6;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "pnM" = (
 /turf/closed/wall/almayer,
 /area/almayer/engineering/lower/workshop/hangar)
@@ -57228,9 +57128,6 @@
 	icon_state = "test_floor4"
 	},
 /area/almayer/maint/hull/lower/l_f_s)
-"pCp" = (
-/turf/closed/wall/almayer/outer,
-/area/almayer/hull/lower_hull/stern)
 "pCr" = (
 /obj/structure/machinery/cm_vending/sorted/attachments/blend,
 /turf/open/floor/almayer{
@@ -57889,8 +57786,7 @@
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
 	},
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/shipboard/brig/main_office)
+/turf/open/floor/plating/plating_catwalk)
 "pOo" = (
 /obj/structure/surface/rack,
 /obj/item/clothing/suit/straight_jacket,
@@ -58481,8 +58377,7 @@
 /turf/open/floor/almayer{
 	dir = 5;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "pXV" = (
 /obj/structure/disposalpipe/segment{
 	dir = 1;
@@ -59420,13 +59315,6 @@
 	icon_state = "test_floor4"
 	},
 /area/almayer/living/pilotbunks)
-"qnE" = (
-/obj/structure/sign/safety/water{
-	pixel_x = 8;
-	pixel_y = -32
-	},
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/hull/lower_hull/stern)
 "qnF" = (
 /obj/structure/surface/table/almayer,
 /obj/item/prop/helmetgarb/prescription_bottle{
@@ -60801,14 +60689,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/port_emb)
-"qLL" = (
-/obj/structure/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/almayer{
-	icon_state = "plate"
-	},
-/area/almayer/hull/lower_hull/stern)
 "qLR" = (
 /obj/structure/pipes/vents/pump{
 	dir = 4
@@ -61032,9 +60912,6 @@
 	icon_state = "cargo"
 	},
 /area/almayer/hallways/lower/vehiclehangar)
-"qPO" = (
-/turf/closed/wall/almayer/reinforced,
-/area/almayer/shipboard/brig/surgery)
 "qPS" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -61909,8 +61786,7 @@
 /turf/open/floor/almayer{
 	dir = 9;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "rdI" = (
 /obj/structure/surface/rack,
 /obj/effect/spawner/random/technology_scanner,
@@ -62104,7 +61980,7 @@
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
-/area/almayer/hull/lower_hull/stern)
+/area/almayer/maint/hull/lower/l_a_s)
 "rgK" = (
 /obj/structure/pipes/vents/scrubber{
 	dir = 8
@@ -62176,7 +62052,6 @@
 	},
 /obj/merge_conflict_marker{
 	name = "---Merge Conflict Marker---";
-	
 	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/structure/machinery/light{
@@ -62437,7 +62312,6 @@
 	},
 /obj/merge_conflict_marker{
 	name = "---Merge Conflict Marker---";
-	
 	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/structure/machinery/light{
@@ -62657,10 +62531,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/maint/hull/lower/l_f_s)
-"rqp" = (
-/obj/structure/closet/firecloset,
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/hull/lower_hull/stern)
 "rqt" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S"
@@ -62831,7 +62701,6 @@
 	},
 /obj/merge_conflict_marker{
 	name = "---Merge Conflict Marker---";
-	
 	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/structure/surface/table/almayer,
@@ -63119,8 +62988,7 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "rzC" = (
 /obj/structure/machinery/cm_vending/sorted/medical/wall_med{
 	pixel_y = 25
@@ -63376,8 +63244,7 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "rCq" = (
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
@@ -63847,9 +63714,6 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/squads/req)
-"rIJ" = (
-/turf/closed/wall/almayer,
-/area/almayer/hull/lower_hull/stern)
 "rIO" = (
 /obj/structure/machinery/vending/snack,
 /obj/item/clothing/head/cmcap/boonie/tan{
@@ -65004,8 +64868,7 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "sgc" = (
 /obj/structure/closet/crate/freezer/cooler{
 	pixel_x = -7
@@ -65213,8 +65076,7 @@
 /area/almayer/medical/lower_medical_medbay)
 "sjc" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/almayer,
-/area/almayer/shipboard/brig/main_office)
+/turf/open/floor/almayer)
 "sjj" = (
 /obj/structure/machinery/keycard_auth{
 	pixel_x = -7;
@@ -65826,8 +65688,7 @@
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
 	},
-/turf/open/floor/plating,
-/area/almayer/shipboard/brig/surgery)
+/turf/open/floor/plating)
 "swt" = (
 /turf/open/floor/almayer{
 	icon_state = "greencorner"
@@ -66655,8 +66516,7 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "sKM" = (
 /obj/structure/pipes/vents/scrubber,
 /turf/open/floor/almayer{
@@ -67258,14 +67118,6 @@
 	icon_state = "dark_sterile"
 	},
 /area/almayer/medical/containment)
-"sXo" = (
-/obj/structure/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/almayer{
-	icon_state = "plate"
-	},
-/area/almayer/hull/lower_hull/stern)
 "sXr" = (
 /obj/vehicle/powerloader,
 /obj/structure/platform{
@@ -67541,8 +67393,7 @@
 /turf/open/floor/almayer{
 	dir = 8;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "tat" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
@@ -68001,8 +67852,7 @@
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/almayer{
 	icon_state = "cargo"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "tjj" = (
 /turf/open/floor/almayer{
 	dir = 5;
@@ -68535,8 +68385,7 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "tsq" = (
 /turf/open/floor/almayer{
 	icon_state = "plate"
@@ -69069,8 +68918,7 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "tCp" = (
 /obj/structure/closet/crate/freezer{
 	desc = "A freezer crate. Someone has written 'open on christmas' in marker on the top."
@@ -69294,7 +69142,6 @@
 "tGc" = (
 /obj/merge_conflict_marker{
 	name = "---Merge Conflict Marker---";
-	
 	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/item/device/camera{
@@ -70016,9 +69863,6 @@
 	icon_state = "plate"
 	},
 /area/almayer/hallways/lower/starboard_aft_hallway)
-"tRX" = (
-/turf/closed/wall/almayer,
-/area/almayer/hull/upper_hull/u_f_s)
 "tSo" = (
 /obj/structure/largecrate/random/barrel/white,
 /turf/open/floor/plating/plating_catwalk,
@@ -70627,7 +70471,7 @@
 	pixel_y = 12
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/almayer/hull/lower_hull/stern)
+/area/almayer/maint/hull/lower/l_a_s)
 "ucg" = (
 /obj/structure/sign/safety/airlock{
 	pixel_y = -32
@@ -70966,8 +70810,7 @@
 "ugT" = (
 /turf/open/floor/almayer{
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "ugU" = (
 /obj/structure/bed/chair/bolted{
 	dir = 4
@@ -70991,8 +70834,7 @@
 /obj/structure/machinery/light,
 /turf/open/floor/almayer{
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "uhM" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 5
@@ -72593,8 +72435,7 @@
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
 	},
-/turf/open/floor/almayer,
-/area/almayer/shipboard/brig/main_office)
+/turf/open/floor/almayer)
 "uJA" = (
 /obj/structure/sign/safety/distribution_pipes{
 	pixel_x = 8;
@@ -73126,8 +72967,7 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "red"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "uTN" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/effect/decal/cleanable/dirt,
@@ -74393,7 +74233,7 @@
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
-/area/almayer/hull/lower_hull/stern)
+/area/almayer/maint/hull/lower/l_a_p)
 "vnC" = (
 /obj/structure/surface/table/almayer,
 /obj/structure/machinery/reagentgrinder/industrial{
@@ -74678,8 +74518,7 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "vsF" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
@@ -75347,8 +75186,7 @@
 	},
 /area/almayer/engineering/lower)
 "vBm" = (
-/turf/closed/wall/almayer/reinforced,
-/area/almayer/shipboard/brig/main_office)
+/turf/closed/wall/almayer/reinforced)
 "vBp" = (
 /obj/structure/bed/chair/comfy{
 	dir = 1
@@ -75683,12 +75521,6 @@
 	icon_state = "plating"
 	},
 /area/almayer/command/airoom)
-"vHb" = (
-/obj/structure/closet/firecloset,
-/turf/open/floor/almayer{
-	icon_state = "plate"
-	},
-/area/almayer/hull/lower_hull/stern)
 "vHf" = (
 /obj/structure/machinery/cm_vending/clothing/dress{
 	req_access = list(1)
@@ -76346,8 +76178,7 @@
 	},
 /area/almayer/engineering/upper_engineering/starboard)
 "vRz" = (
-/turf/closed/wall/almayer/outer,
-/area/almayer/hull/lower_hull/l_f_p)
+/turf/closed/wall/almayer/outer)
 "vRH" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -77365,8 +77196,7 @@
 	},
 /area/almayer/shipboard/stern_point_defense)
 "wgi" = (
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/shipboard/brig/main_office)
+/turf/open/floor/plating/plating_catwalk)
 "wgk" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -78871,10 +78701,6 @@
 	icon_state = "plate"
 	},
 /area/almayer/hallways/lower/repair_bay)
-"wHG" = (
-/obj/structure/machinery/light/small,
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/hull/lower_hull/stern)
 "wHH" = (
 /obj/structure/pipes/vents/pump{
 	dir = 4
@@ -78885,8 +78711,7 @@
 /turf/open/floor/almayer{
 	dir = 4;
 	icon_state = "redcorner"
-	},
-/area/almayer/shipboard/brig/main_office)
+	})
 "wIl" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "N";
@@ -79504,11 +79329,6 @@
 	icon_state = "plate"
 	},
 /area/almayer/maint/lower/cryo_cells)
-"wSQ" = (
-/turf/open/floor/almayer{
-	icon_state = "plate"
-	},
-/area/almayer/hull/lower_hull/stern)
 "wSR" = (
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 1
@@ -79849,7 +79669,6 @@
 	},
 /obj/merge_conflict_marker{
 	name = "---Merge Conflict Marker---";
-	
 	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/structure/machinery/door/poddoor/shutters/almayer{
@@ -80228,7 +80047,6 @@
 "xey" = (
 /obj/merge_conflict_marker{
 	name = "---Merge Conflict Marker---";
-	
 	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
 	},
 /obj/structure/machinery/power/apc/almayer,
@@ -80714,7 +80532,7 @@
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
-/area/almayer/hull/lower_hull/stern)
+/area/almayer/maint/hull/lower/l_a_p)
 "xon" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -81305,9 +81123,6 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/carpet,
 /area/almayer/living/commandbunks)
-"xys" = (
-/turf/closed/wall/almayer,
-/area/almayer/shipboard/brig/main_office)
 "xyt" = (
 /obj/structure/surface/table/almayer,
 /obj/item/storage/toolbox/mechanical{
@@ -83474,8 +83289,7 @@
 /obj/structure/bed/chair{
 	dir = 1
 	},
-/turf/open/floor/plating/plating_catwalk,
-/area/almayer/shipboard/brig/main_office)
+/turf/open/floor/plating/plating_catwalk)
 "ylT" = (
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 1
@@ -92871,7 +92685,7 @@ tGc
 hFL
 hNS
 dmK
-xys
+bGb
 dqP
 sgJ
 lIT
@@ -94492,10 +94306,10 @@ lrq
 qEO
 eFx
 tjh
-kHa
+bGb
 cOW
 aAR
-kHa
+bGb
 jEG
 jJX
 jJX
@@ -96318,7 +96132,7 @@ gjC
 cQv
 cxA
 vsx
-qPO
+vBm
 xNX
 uxr
 xNX
@@ -97939,7 +97753,7 @@ vxM
 vxM
 gaJ
 sKG
-xys
+bGb
 vBm
 vGA
 hUW
@@ -99557,7 +99371,7 @@ adu
 adu
 aHZ
 akC
-tRX
+bGb
 eUo
 nRE
 vBm
@@ -134783,8 +134597,8 @@ aWZ
 vyJ
 hbS
 noP
-wSQ
-rIJ
+dVn
+qIq
 jCo
 oOk
 fsk
@@ -134802,8 +134616,8 @@ lzp
 ghF
 oOs
 uHT
-rIJ
-wSQ
+lxA
+kMm
 noP
 vBk
 bjH
@@ -134986,8 +134800,8 @@ ggQ
 vxS
 qhr
 noP
-gRc
-rIJ
+bQy
+qIq
 rQD
 vtW
 rxt
@@ -135005,8 +134819,8 @@ xIo
 rxt
 rGX
 cVO
-rIJ
-gRc
+lxA
+aVJ
 noP
 dDd
 dNy
@@ -135189,8 +135003,8 @@ aep
 fbn
 hbS
 noP
-gRc
-rIJ
+bQy
+qIq
 bcY
 bcY
 cRW
@@ -135208,8 +135022,8 @@ ook
 stL
 bcY
 bcY
-rIJ
-dsr
+lxA
+sFv
 noP
 xPV
 gvY
@@ -135392,8 +135206,8 @@ utf
 tbw
 pnG
 noP
-gRc
-gRc
+bQy
+bQy
 bcY
 gTO
 moz
@@ -135411,8 +135225,8 @@ weE
 moz
 din
 bcY
-wSQ
-gRc
+kMm
+aVJ
 noP
 pnG
 rAm
@@ -135595,8 +135409,8 @@ ipi
 ipi
 ipi
 ipi
-wSQ
-wSQ
+dVn
+dVn
 bcY
 vbc
 moz
@@ -135615,7 +135429,7 @@ moz
 vbc
 bcY
 cuw
-dQM
+irj
 ipi
 ipi
 ipi
@@ -135797,9 +135611,9 @@ aah
 aag
 aag
 aag
-pCp
-lOm
-gRc
+fCz
+qHh
+bQy
 bcY
 qZv
 rWB
@@ -135818,8 +135632,8 @@ rxz
 lKH
 bcY
 hiT
-wHG
-pCp
+nAN
+uQv
 aag
 aag
 aag
@@ -136000,9 +135814,9 @@ bdH
 aad
 aag
 aag
-pCp
-wSQ
-wSQ
+fCz
+dVn
+dVn
 bcY
 sOs
 moz
@@ -136020,9 +135834,9 @@ lWf
 moz
 qqR
 bcY
-wSQ
-wSQ
-pCp
+kMm
+kMm
+uQv
 aag
 aag
 ajZ
@@ -136203,9 +136017,9 @@ bdH
 aad
 aag
 aag
-pCp
-gRc
-gRc
+fCz
+bQy
+bQy
 bcY
 gtN
 tbE
@@ -136223,9 +136037,9 @@ aEv
 ckq
 qqR
 bcY
-wSQ
-wSQ
-pCp
+kMm
+kMm
+uQv
 aag
 aag
 ajZ
@@ -136406,9 +136220,9 @@ bdH
 aad
 aag
 aag
-pCp
-wSQ
-gRc
+fCz
+dVn
+bQy
 bcY
 bcY
 wLA
@@ -136426,9 +136240,9 @@ weE
 qqR
 bcY
 bcY
-gRc
-dsr
-pCp
+aVJ
+sFv
+uQv
 aag
 aag
 ajZ
@@ -136609,10 +136423,10 @@ bdH
 aad
 aag
 aag
-pCp
-wSQ
-wSQ
-wSQ
+fCz
+dVn
+dVn
+dVn
 bcY
 trV
 qSO
@@ -136628,10 +136442,10 @@ bcY
 xdw
 trV
 bcY
-jej
-wSQ
-wSQ
-pCp
+hvE
+kMm
+kMm
+uQv
 aag
 aag
 ajZ
@@ -136812,10 +136626,10 @@ bdH
 aad
 aag
 aag
-pCp
-gRc
-gRc
-gRc
+fCz
+bQy
+bQy
+bQy
 bcY
 udg
 xZt
@@ -136832,9 +136646,9 @@ heU
 udg
 bcY
 xof
-gRc
+aVJ
 xof
-pCp
+uQv
 aag
 aag
 ajZ
@@ -137015,10 +136829,10 @@ bdH
 aad
 aag
 aag
-pCp
-pCp
-qLL
-wSQ
+fCz
+fCz
+hTs
+dVn
 bcY
 udg
 qSO
@@ -137035,9 +136849,9 @@ weE
 udg
 bcY
 cuw
-eFD
-pCp
-pCp
+qip
+uQv
+uQv
 aag
 aag
 ajZ
@@ -137219,9 +137033,9 @@ aad
 aag
 aag
 aag
-pCp
-cuw
-dQM
+fCz
+uoZ
+vBg
 bcY
 bcY
 ngP
@@ -137237,9 +137051,9 @@ bcY
 wOm
 bcY
 bcY
-cxL
-gRc
-pCp
+rwF
+aVJ
+uQv
 aag
 aag
 aag
@@ -137422,9 +137236,9 @@ aad
 aag
 aag
 aag
-pCp
-wSQ
-qnE
+fCz
+dVn
+swj
 bcY
 dPD
 uom
@@ -137440,9 +137254,9 @@ gVR
 tLw
 chY
 bcY
-gRc
-wHG
-pCp
+aVJ
+nAN
+uQv
 aag
 aag
 aag
@@ -137625,9 +137439,9 @@ aad
 aag
 aag
 aag
-pCp
-gRc
-gRc
+fCz
+bQy
+bQy
 bcY
 uAM
 uom
@@ -137644,8 +137458,8 @@ uom
 mgu
 bcY
 ebb
-wSQ
-pCp
+kMm
+uQv
 aag
 aag
 aag
@@ -137828,9 +137642,9 @@ aad
 aag
 aag
 aag
-pCp
-wSQ
-wSQ
+fCz
+dVn
+dVn
 bcY
 urc
 nuX
@@ -137846,9 +137660,9 @@ oTH
 dBP
 lyx
 bcY
-gRc
-pgN
-pCp
+aVJ
+pOz
+uQv
 aag
 aag
 aag
@@ -138031,9 +137845,9 @@ aad
 aag
 aag
 aag
-pCp
-gRc
-gRc
+fCz
+bQy
+bQy
 bcY
 kRQ
 gUl
@@ -138049,9 +137863,9 @@ mxc
 mgu
 nZZ
 bcY
-wSQ
-wSQ
-pCp
+kMm
+kMm
+uQv
 aag
 aag
 aag
@@ -138234,9 +138048,9 @@ aad
 aag
 aag
 aag
-pCp
-wSQ
-wSQ
+fCz
+dVn
+dVn
 bcY
 rBR
 gUl
@@ -138252,9 +138066,9 @@ mxc
 mgu
 yen
 bcY
-gRc
-gRc
-pCp
+aVJ
+aVJ
+uQv
 aag
 aag
 aag
@@ -138437,9 +138251,9 @@ aad
 aag
 aag
 aag
-pCp
-gRc
-gRc
+fCz
+bQy
+bQy
 bcY
 daC
 mlJ
@@ -138455,9 +138269,9 @@ gQp
 lZu
 daC
 bcY
-wSQ
-wSQ
-pCp
+kMm
+kMm
+uQv
 aag
 aag
 aag
@@ -138640,9 +138454,9 @@ aad
 aag
 aag
 aag
-pCp
-wSQ
-gRc
+fCz
+dVn
+bQy
 bcY
 bcY
 bcY
@@ -138658,9 +138472,9 @@ bcY
 bcY
 bcY
 bcY
-gRc
-gRc
-pCp
+aVJ
+aVJ
+uQv
 aag
 aag
 aag
@@ -138843,11 +138657,11 @@ aad
 aag
 aag
 aag
-pCp
-wSQ
-gRc
-rqp
-vnz
+fCz
+dVn
+bQy
+tYy
+lnl
 bcY
 nln
 jzM
@@ -138860,10 +138674,10 @@ rGq
 nln
 bcY
 vnz
-vHb
-wSQ
-wSQ
-pCp
+xtU
+kMm
+kMm
+uQv
 aag
 aag
 aag
@@ -139046,11 +138860,11 @@ aad
 aag
 aag
 aag
-pCp
-wSQ
-wSQ
-wSQ
-wSQ
+fCz
+dVn
+dVn
+dVn
+dVn
 bcY
 nln
 iDI
@@ -139062,11 +138876,11 @@ bCv
 kWe
 nln
 bcY
-jGJ
-wSQ
-wSQ
-wSQ
-pCp
+jfz
+kMm
+kMm
+kMm
+uQv
 aag
 aag
 aag
@@ -139249,11 +139063,11 @@ aad
 aag
 aag
 aag
-pCp
-pCp
+fCz
+fCz
 ucb
-eFD
-eFD
+rlp
+rlp
 bcY
 hFA
 eLW
@@ -139266,10 +139080,10 @@ eLW
 rFz
 bcY
 etW
-gRc
-wHG
-pCp
-pCp
+aVJ
+nAN
+uQv
+uQv
 aag
 aag
 aag
@@ -139453,9 +139267,9 @@ aag
 aag
 aag
 aag
-pCp
-wSQ
-gRc
+fCz
+dVn
+bQy
 rgD
 bcY
 bcY
@@ -139468,10 +139282,10 @@ bcY
 bcY
 bcY
 bcY
-wSQ
-wSQ
-wSQ
-pCp
+kMm
+kMm
+kMm
+uQv
 aag
 aag
 aag
@@ -139656,25 +139470,25 @@ aag
 aag
 aag
 aag
-pCp
-wSQ
-gRc
-wSQ
-gRc
-kpI
-wSQ
+fCz
+dVn
+bQy
+dVn
+bQy
+sAy
+dVn
 mHV
-gRc
-gRc
-gRc
-mHV
-wSQ
-sXo
-gRc
-gRc
-gRc
-wSQ
-pCp
+bQy
+aVJ
+aVJ
+kHa
+kMm
+rQo
+aVJ
+aVJ
+aVJ
+kMm
+uQv
 aag
 aag
 aag
