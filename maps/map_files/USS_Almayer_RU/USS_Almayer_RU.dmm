@@ -3297,8 +3297,6 @@
 	icon_state = "orangecorner"
 	},
 /area/almayer/hallways/upper/stern_hallway)
-"alH" = (
-/turf/closed/wall/almayer/white/outer_tile)
 "alI" = (
 /obj/item/stack/cable_coil{
 	pixel_x = 1;
@@ -4484,14 +4482,6 @@
 	},
 /turf/open/floor/grass,
 /area/almayer/living/starboard_garden)
-"apI" = (
-/obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2;
-	name = "\improper Command Ladder"
-	},
-/turf/open/floor/almayer{
-	icon_state = "test_floor4"
-	})
 "apJ" = (
 /turf/open/floor/almayer{
 	dir = 8;
@@ -10724,8 +10714,6 @@
 	},
 /turf/open/space,
 /area/space)
-"aLG" = (
-/turf/open/floor/almayer)
 "aLJ" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 6
@@ -10843,13 +10831,15 @@
 	pixel_x = 23;
 	pixel_y = 32
 	},
-/turf/open/floor/plating/almayer)
+/turf/open/floor/plating/almayer,
+/area/almayer/medical/medical_science)
 "aMi" = (
 /obj/structure/ladder{
 	height = 2;
 	id = "cicladder4"
 	},
-/turf/open/floor/plating/almayer)
+/turf/open/floor/plating/almayer,
+/area/almayer/medical/medical_science)
 "aMl" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -14579,7 +14569,8 @@
 /obj/structure/machinery/computer/secure_data{
 	dir = 1
 	},
-/turf/open/floor/almayer)
+/turf/open/floor/almayer,
+/area/almayer/shipboard/brig/processing)
 "bjd" = (
 /turf/open/floor/almayer{
 	dir = 8;
@@ -20031,6 +20022,7 @@
 	pixel_x = 8;
 	pixel_y = -32
 	},
+/obj/structure/machinery/power/reactor,
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
@@ -20295,6 +20287,7 @@
 /obj/structure/machinery/status_display{
 	pixel_y = 30
 	},
+/obj/structure/machinery/power/reactor,
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
@@ -20432,6 +20425,7 @@
 	},
 /area/almayer/shipboard/sea_office)
 "bPd" = (
+/obj/structure/machinery/power/reactor,
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
@@ -21414,6 +21408,7 @@
 	pixel_x = 8;
 	pixel_y = 32
 	},
+/obj/structure/machinery/power/reactor,
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
@@ -23191,7 +23186,8 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "plate"
-	})
+	},
+/area/almayer/medical/medical_science)
 "ceu" = (
 /obj/item/trash/barcardine,
 /turf/open/floor/plating/plating_catwalk,
@@ -29768,7 +29764,8 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "plate"
-	})
+	},
+/area/almayer/shipboard/brig/processing)
 "efu" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
@@ -30600,7 +30597,8 @@
 /turf/open/floor/almayer{
 	dir = 5;
 	icon_state = "red"
-	})
+	},
+/area/almayer/shipboard/brig/processing)
 "euV" = (
 /turf/open/floor/almayer/uscm/directional{
 	dir = 8;
@@ -32148,7 +32146,8 @@
 /turf/open/floor/almayer{
 	dir = 1;
 	icon_state = "red"
-	})
+	},
+/area/almayer/shipboard/brig/processing)
 "eZE" = (
 /turf/open/floor/almayer{
 	dir = 8;
@@ -33754,6 +33753,7 @@
 /obj/structure/machinery/light{
 	dir = 8
 	},
+/obj/structure/machinery/power/reactor,
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
 	},
@@ -41481,7 +41481,8 @@
 	},
 /turf/open/floor/almayer{
 	icon_state = "test_floor4"
-	})
+	},
+/area/almayer/shipboard/brig/processing)
 "iyH" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	climbable = 0;
@@ -43477,7 +43478,8 @@
 	id = "Warden Office Shutters";
 	name = "\improper Privacy Shutters"
 	},
-/turf/open/floor/plating)
+/turf/open/floor/plating,
+/area/almayer/shipboard/brig/processing)
 "jkV" = (
 /obj/structure/machinery/light{
 	dir = 1
@@ -45476,7 +45478,8 @@
 	phone_id = "Brig Warden's Office";
 	pixel_x = -16
 	},
-/turf/open/floor/almayer)
+/turf/open/floor/almayer,
+/area/almayer/shipboard/brig/processing)
 "jZO" = (
 /obj/structure/largecrate/random/barrel/blue,
 /turf/open/floor/almayer{
@@ -47215,7 +47218,8 @@
 /area/almayer/hallways/lower/starboard_aft_hallway)
 "kJK" = (
 /obj/structure/bed/chair/comfy/orange,
-/turf/open/floor/almayer)
+/turf/open/floor/almayer,
+/area/almayer/shipboard/brig/processing)
 "kJS" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
@@ -48335,11 +48339,6 @@
 	icon_state = "plate"
 	},
 /area/almayer/living/gym)
-"ldu" = (
-/turf/open/floor/almayer{
-	dir = 1;
-	icon_state = "red"
-	})
 "ldC" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/captain_mess)
@@ -49125,7 +49124,8 @@
 "ltX" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/supply,
-/turf/closed/wall/almayer/reinforced)
+/turf/closed/wall/almayer/reinforced,
+/area/almayer/shipboard/brig/processing)
 "lue" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
@@ -52365,7 +52365,8 @@
 /obj/structure/machinery/cm_vending/clothing/military_police_warden,
 /turf/open/floor/almayer{
 	icon_state = "plate"
-	})
+	},
+/area/almayer/shipboard/brig/processing)
 "mGu" = (
 /turf/open/floor/almayer{
 	dir = 4;
@@ -53623,8 +53624,6 @@
 	icon_state = "plate"
 	},
 /area/almayer/maint/hull/lower/s_bow)
-"ndy" = (
-/turf/closed/wall/almayer/reinforced)
 "ndJ" = (
 /obj/structure/machinery/status_display{
 	pixel_y = 30
@@ -54757,7 +54756,8 @@
 	id = "Warden Office Shutters";
 	name = "\improper Privacy Shutters"
 	},
-/turf/open/floor/plating)
+/turf/open/floor/plating,
+/area/almayer/shipboard/brig/processing)
 "nxJ" = (
 /obj/structure/machinery/cm_vending/clothing/medic/alpha{
 	density = 0;
@@ -58835,7 +58835,8 @@
 /turf/open/floor/almayer{
 	dir = 5;
 	icon_state = "red"
-	})
+	},
+/area/almayer/shipboard/brig/processing)
 "pbp" = (
 /obj/structure/bed/chair/comfy{
 	dir = 1
@@ -62235,7 +62236,8 @@
 	id = "Warden Office Shutters";
 	name = "\improper Privacy Shutters"
 	},
-/turf/open/floor/plating)
+/turf/open/floor/plating,
+/area/almayer/shipboard/brig/processing)
 "qom" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/chem_dispenser/soda{
@@ -64730,7 +64732,8 @@
 	id = "Warden Office Shutters";
 	name = "\improper Privacy Shutters"
 	},
-/turf/open/floor/plating)
+/turf/open/floor/plating,
+/area/almayer/shipboard/brig/processing)
 "rld" = (
 /obj/structure/machinery/door/airlock/almayer/research/glass/reinforced{
 	name = "\improper Research Reception Laboratory"
@@ -66499,7 +66502,8 @@
 /turf/open/floor/almayer{
 	dir = 4;
 	icon_state = "red"
-	})
+	},
+/area/almayer/shipboard/brig/processing)
 "rRU" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -94660,11 +94664,11 @@ jFR
 oRk
 kxM
 jSw
-ndy
-ndy
+emp
+emp
 qof
-ndy
-ndy
+emp
+emp
 wRm
 tUx
 vrx
@@ -95067,7 +95071,7 @@ eOW
 cMl
 lMc
 nxq
-ldu
+bju
 kJK
 bja
 jkS
@@ -95270,10 +95274,10 @@ gjL
 cMl
 oeB
 euO
-ldu
-aLG
+bju
+pyj
 jZL
-ndy
+emp
 qJZ
 ohJ
 thL
@@ -95675,11 +95679,11 @@ lMc
 ycr
 bju
 goD
-ndy
-ndy
+emp
+emp
 qof
-ndy
-ndy
+emp
+emp
 sSm
 thL
 thL
@@ -119227,7 +119231,7 @@ uoi
 vOy
 aMh
 cet
-alH
+bPF
 aTL
 eRt
 avj
@@ -119430,7 +119434,7 @@ gVq
 vOy
 aMi
 cet
-apI
+cbg
 aWd
 eRt
 aWd
