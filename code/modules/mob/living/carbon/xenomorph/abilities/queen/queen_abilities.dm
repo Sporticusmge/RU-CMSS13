@@ -40,6 +40,16 @@
 	var/node_plant_plasma_cost = 300
 	var/turf_build_cooldown = 10 SECONDS
 
+/datum/action/xeno_action/onclick/give_evo_points
+	name = "Trade Larva for Tech Points (100)"
+	action_icon_state = "queen_give_evo_points"
+	plasma_cost = 100
+	xeno_cooldown = 60 SECONDS
+	var/required_larva = 1
+	var/duration = 10 MINUTES
+	var/to_give = 12
+	var/active = FALSE
+
 /datum/action/xeno_action/onclick/manage_hive
 	name = "Manage The Hive"
 	action_icon_state = "xeno_readmit"
