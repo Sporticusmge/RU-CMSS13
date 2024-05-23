@@ -554,14 +554,25 @@
 
 		//Banning comes first
 		if(notbannedlist.len)
-			if(!check_rights(R_BAN))  return
-			var/reason = input(usr,"Reason?","Please State Reason","") as text|null
-			if(reason)
-				var/datum/entity/player/P = get_player_from_key(M.ckey)
-				P.add_job_ban(reason, notbannedlist)
 
-				href_list["jobban2"] = 1 // lets it fall through and refresh
-				return 1
+			//RU-CM EDIT START
+			if(!check_rights(R_BAN))
+				return
+
+			var/reason = tgui_input_text(usr, "Reason?", "Please State Reason")
+			if(!reason)
+				reason = "No reason specified."
+
+			var/minutes = tgui_input_number(usr, "Duration in minutes. (0 if permaban)", "Please State Duration", 1440, 262800, 0, 0, TRUE)
+			if(minutes == 0)
+				minutes = null
+
+			var/datum/entity/player/P = get_player_from_key(M.ckey)
+			P.add_job_ban(reason, notbannedlist, minutes)
+			href_list["jobban2"] = 1 // lets it fall through and refresh
+
+			return 1
+			//RU-CM EDIT END
 
 		//Unbanning joblist
 		//all jobs in joblist are banned already OR we didn't give a reason (implying they shouldn't be banned)
