@@ -39134,9 +39134,9 @@
 /area/almayer/hallways/lower/starboard_midship_hallway)
 "hAG" = (
 /obj/structure/closet/crate/internals,
-/obj/item/handcuffs/cable/blue,
-/obj/item/handcuffs/cable/blue,
-/obj/item/handcuffs/cable/cyan,
+/obj/item/restraint/handcuffs/cable/blue,
+/obj/item/restraint/handcuffs/cable/blue,
+/obj/item/restraint/handcuffs/cable/cyan,
 /obj/effect/spawner/random/toolbox,
 /turf/open/shuttle/dropship{
 	icon_state = "rasputin3"
@@ -57284,7 +57284,7 @@
 	pixel_y = 5
 	},
 /obj/item/paper,
-/obj/item/handcuffs,
+/obj/item/restraint/handcuffs,
 /obj/item/clothing/mask/cigarette/cigar/classic,
 /obj/item/coin/silver{
 	desc = "A small coin, bearing the falling falcons insignia.";
@@ -69104,7 +69104,7 @@
 "sRI" = (
 /obj/structure/surface/table/almayer,
 /obj/item/tool/wirecutters/clippers,
-/obj/item/handcuffs/zip,
+/obj/item/restraint/handcuffs/zip,
 /turf/open/floor/almayer{
 	icon_state = "plate"
 	},
@@ -69563,7 +69563,7 @@
 	pixel_x = -5;
 	pixel_y = 5
 	},
-/obj/item/handcuffs,
+/obj/item/restraint/handcuffs,
 /obj/item/storage/firstaid/regular,
 /obj/structure/machinery/light{
 	dir = 8
@@ -70242,13 +70242,13 @@
 /area/almayer/hallways/lower/vehiclehangar)
 "tmy" = (
 /obj/structure/surface/table/almayer,
-/obj/item/handcuffs{
+/obj/item/restraint/handcuffs{
 	pixel_y = 12
 	},
-/obj/item/handcuffs{
+/obj/item/restraint/handcuffs{
 	pixel_y = 6
 	},
-/obj/item/handcuffs,
+/obj/item/restraint/handcuffs,
 /obj/item/weapon/baton{
 	pixel_x = -12
 	},

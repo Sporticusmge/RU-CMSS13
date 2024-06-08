@@ -29,6 +29,7 @@
 	var/automated_lz_id
 	var/automated_delay
 	var/automated_timer
+	var/datum/cas_signal/paradrop_signal
 
 
 /obj/docking_port/mobile/marine_dropship/Initialize(mapload)
@@ -304,7 +305,7 @@
 
 /obj/docking_port/stationary/marine_dropship/crash_site/on_arrival(obj/docking_port/mobile/arriving_shuttle)
 	. = ..()
-	arriving_shuttle.mode = SHUTTLE_CRASHED
+	arriving_shuttle.set_mode(SHUTTLE_CRASHED)
 	for(var/mob/living/carbon/affected_mob in (GLOB.alive_human_list + GLOB.living_xeno_list)) //knock down mobs
 		if(affected_mob.z != z)
 			continue

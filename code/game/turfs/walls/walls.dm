@@ -178,7 +178,7 @@
 
 	switch(d_state)
 		if(WALL_STATE_WELD)
-			. += SPAN_INFO("The outer plating is intact. A blowtorch should slice it open.")
+			. += SPAN_INFO("The outer plating is intact. If you are not on help intent, a blowtorch should slice it open.")
 		if(WALL_STATE_SCREW)
 			. += SPAN_INFO("The outer plating has been sliced open. A screwdriver should remove the support lines.")
 		if(WALL_STATE_WIRECUTTER)
@@ -298,7 +298,7 @@
 			break
 
 		if(thermite > (damage_cap - damage)/100) // Thermite gains a speed buff when the amount is overkill
-			var/timereduction = round((thermite - (damage_cap - damage)/100)/5) // Every 5 units over the required amount reduces the sleep by 0.1s
+			var/timereduction = floor((thermite - (damage_cap - damage)/100)/5) // Every 5 units over the required amount reduces the sleep by 0.1s
 			sleep(max(2, 20 - timereduction))
 		else
 			sleep(20)
@@ -482,13 +482,15 @@
 /turf/closed/wall/proc/try_weldingtool_usage(obj/item/W, mob/user)
 	if(!damage || !iswelder(W))
 		return FALSE
+	if(user.a_intent != INTENT_HELP)
+		return FALSE
 
 	var/obj/item/tool/weldingtool/WT = W
 	if(WT.remove_fuel(0, user))
 		user.visible_message(SPAN_NOTICE("[user] starts repairing the damage to [src]."),
 		SPAN_NOTICE("You start repairing the damage to [src]."))
 		playsound(src, 'sound/items/Welder.ogg', 25, 1)
-		if(do_after(user, max(5, round(damage / 5) * user.get_skill_duration_multiplier(SKILL_CONSTRUCTION)), INTERRUPT_ALL, BUSY_ICON_FRIENDLY) && istype(src, /turf/closed/wall) && WT && WT.isOn())
+		if(do_after(user, max(5, floor(damage / 5) * user.get_skill_duration_multiplier(SKILL_CONSTRUCTION)), INTERRUPT_ALL, BUSY_ICON_FRIENDLY) && istype(src, /turf/closed/wall) && WT && WT.isOn())
 			user.visible_message(SPAN_NOTICE("[user] finishes repairing the damage to [src]."),
 			SPAN_NOTICE("You finish repairing the damage to [src]."))
 			take_damage(-damage)
@@ -503,6 +505,8 @@
 		return
 	if(!(WT.remove_fuel(0, user)))
 		to_chat(user, SPAN_WARNING("You need more welding fuel!"))
+		return
+	if(user.a_intent == INTENT_HELP)
 		return
 
 	playsound(src, 'sound/items/Welder.ogg', 25, 1)

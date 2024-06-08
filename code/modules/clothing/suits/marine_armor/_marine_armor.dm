@@ -191,7 +191,7 @@
 	if(. != CHECKS_PASSED)
 		return
 	set_light_range(initial(light_range))
-	set_light_power(FLOOR(initial(light_power) * 0.5, 1))
+	set_light_power(floor(initial(light_power) * 0.5))
 	set_light_on(toggle_on)
 	flags_marine_armor ^= ARMOR_LAMP_ON
 
@@ -305,7 +305,7 @@
 		/obj/item/storage/fancy/cigarettes,
 		/obj/item/tool/lighter,
 		/obj/item/weapon/baton,
-		/obj/item/handcuffs,
+		/obj/item/restraint/handcuffs,
 		/obj/item/explosive/grenade,
 		/obj/item/device/binoculars,
 		/obj/item/attachable/bayonet,
@@ -517,7 +517,7 @@
 
 /obj/item/clothing/suit/storage/marine/light/synvest
 	name = "\improper M3A1 Synthetic Utility Vest"
-	desc = "This variant of the ubiquitous M3 pattern ballistics vest has been extensively modified, providing no protection in exchange for maximum mobility and storage space. Synthetic programming compliant."
+	desc = "This variant of the ubiquitous M3 pattern vest has been extensively modified, providing no protection in exchange for maximum mobility and added storage. Synthetic programming compliant."
 	icon_state = "VL_syn_camo"
 	flags_atom = NO_NAME_OVERRIDE
 	flags_marine_armor = ARMOR_LAMP_OVERLAY|SYNTH_ALLOWED //No squad colors + can be worn by synths.
@@ -530,7 +530,7 @@
 	armor_rad = CLOTHING_ARMOR_NONE
 	armor_internaldamage = CLOTHING_ARMOR_NONE
 	storage_slots = 3
-	slowdown = SLOWDOWN_ARMOR_VERY_LIGHT
+	slowdown = SLOWDOWN_ARMOR_SUPER_LIGHT
 	time_to_unequip = 0.5 SECONDS
 	time_to_equip = 1 SECONDS
 	uniform_restricted = null
@@ -661,6 +661,7 @@
 	slowdown = SLOWDOWN_ARMOR_HEAVY
 	specialty = "M3-G4 grenadier"
 	unacidable = TRUE
+	light_range = 5
 
 /obj/item/clothing/suit/storage/marine/M3T
 	name = "\improper M3-T light armor"
@@ -736,7 +737,7 @@
 		/obj/item/device/flashlight,
 		/obj/item/ammo_magazine/,
 		/obj/item/weapon/baton,
-		/obj/item/handcuffs,
+		/obj/item/restraint/handcuffs,
 		/obj/item/storage/fancy/cigarettes,
 		/obj/item/tool/lighter,
 		/obj/item/explosive/grenade,
@@ -1194,7 +1195,7 @@
 		/obj/item/storage/fancy/cigarettes,
 		/obj/item/tool/lighter,
 		/obj/item/weapon/baton,
-		/obj/item/handcuffs,
+		/obj/item/restraint/handcuffs,
 		/obj/item/device/binoculars,
 		/obj/item/attachable/bayonet,
 		/obj/item/device/flashlight,
@@ -1259,7 +1260,7 @@
 		/obj/item/device/flashlight,
 		/obj/item/ammo_magazine/,
 		/obj/item/weapon/baton,
-		/obj/item/handcuffs,
+		/obj/item/restraint/handcuffs,
 		/obj/item/storage/fancy/cigarettes,
 		/obj/item/tool/lighter,
 		/obj/item/explosive/grenade,
@@ -1294,7 +1295,7 @@
 		/obj/item/device/flashlight,
 		/obj/item/ammo_magazine/,
 		/obj/item/weapon/baton,
-		/obj/item/handcuffs,
+		/obj/item/restraint/handcuffs,
 		/obj/item/storage/fancy/cigarettes,
 		/obj/item/tool/lighter,
 		/obj/item/explosive/grenade,
@@ -1397,7 +1398,7 @@
 		/obj/item/storage/fancy/cigarettes,
 		/obj/item/tool/lighter,
 		/obj/item/weapon/baton,
-		/obj/item/handcuffs,
+		/obj/item/restraint/handcuffs,
 		/obj/item/explosive/grenade,
 		/obj/item/device/binoculars,
 		/obj/item/attachable/bayonet,
@@ -1453,7 +1454,7 @@
 		/obj/item/device/flashlight,
 		/obj/item/ammo_magazine/,
 		/obj/item/weapon/baton,
-		/obj/item/handcuffs,
+		/obj/item/restraint/handcuffs,
 		/obj/item/storage/fancy/cigarettes,
 		/obj/item/tool/lighter,
 		/obj/item/explosive/grenade,

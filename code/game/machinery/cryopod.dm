@@ -342,8 +342,11 @@ GLOBAL_LIST_INIT(frozen_items, list(SQUAD_MARINE_1 = list(), SQUAD_MARINE_2 = li
 							set_name = "Scout Set"
 						if(SKILL_SPEC_SNIPER)
 							set_name = "Sniper Set"
+							GLOB.available_specialist_sets += "Anti-materiel Sniper Set"
+						// RUCM ADD START
 						if(SKILL_SPEC_ST)
 							set_name = "Stormtrooper Set"
+						// RUCM ADD END
 
 					if(set_name && !GLOB.available_specialist_sets.Find(set_name))
 						GLOB.available_specialist_sets += set_name
