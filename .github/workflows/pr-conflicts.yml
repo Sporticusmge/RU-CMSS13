@@ -5,8 +5,7 @@ jobs:
   build:
     name: potential-conflicts-checker
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
     steps:
       - uses: outsideris/potential-conflicts-checker-action@0.1.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
