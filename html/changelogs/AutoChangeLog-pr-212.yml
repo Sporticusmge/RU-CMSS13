@@ -1,0 +1,6 @@
+author: "0Tikwah0"
+delete-after: True
+changes:
+  - maptweak: "Изменение системы мусоросброса."
+  - maptweak: "Добавление диспенсера труб для мусора"
+  - maptweak: "Удаление второй кровати в офисе СЕ"
