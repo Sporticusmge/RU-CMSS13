@@ -1,7 +1,17 @@
 import { filter } from 'common/collections';
 import { flow } from 'common/fp';
-import { useBackend, useLocalState } from '../backend';
-import { Button, Collapsible, Box, Stack, Section, Input, Icon } from '../components';
+import { useState } from 'react';
+
+import { useBackend } from '../backend';
+import {
+  Box,
+  Button,
+  Collapsible,
+  Icon,
+  Input,
+  Section,
+  Stack,
+} from '../components';
 import { Window } from '../layouts';
 
 export const Who = (props, context) => {
@@ -15,7 +25,7 @@ export const Who = (props, context) => {
     xenomorphs = [],
   } = data;
 
-  const [searchQuery, setSearchQuery] = useLocalState('searchQuery', '');
+  const [searchQuery, setSearchQuery] = useState('');
 
   const MostRelevant = (searchQuery) => {
     const mostRelevant = flow([
@@ -78,33 +88,33 @@ export const Who = (props, context) => {
                   <Box direction="column">
                     {additional_info.length
                       ? additional_info.map((x, index) => (
-                        <GetAddInfo
-                          key={index}
-                          content={x.content}
-                          color={x.color}
-                          text={x.text}
-                        />
-                      ))
+                          <GetAddInfo
+                            key={index}
+                            content={x.content}
+                            color={x.color}
+                            text={x.text}
+                          />
+                        ))
                       : null}
                     {factions.length
                       ? factions.map((x, index) => (
-                        <GetAddInfo
-                          key={index}
-                          content={x.content}
-                          color={x.color}
-                          text={x.text}
-                        />
-                      ))
+                          <GetAddInfo
+                            key={index}
+                            content={x.content}
+                            color={x.color}
+                            text={x.text}
+                          />
+                        ))
                       : null}
                     {xenomorphs.length
                       ? xenomorphs.map((x, index) => (
-                        <GetAddInfo
-                          key={index}
-                          content={x.content}
-                          color={x.color}
-                          text={x.text}
-                        />
-                      ))
+                          <GetAddInfo
+                            key={index}
+                            content={x.content}
+                            color={x.color}
+                            text={x.text}
+                          />
+                        ))
                       : null}
                   </Box>
                 </WhoCollapsible>
@@ -137,10 +147,11 @@ const GetAddInfo = (props, context) => {
         'border-color': color,
         'border-style': 'solid',
         'border-width': '1px',
-        'color': color,
+        color: color,
       }}
       tooltip={text}
-      tooltipPosition="bottom-start">
+      tooltipPosition="bottom-start"
+    >
       {content}
     </Button>
   );
@@ -156,11 +167,12 @@ const GetPlayerInfo = (props, context) => {
         'border-color': admin ? color : '#2185d0',
         'border-style': 'solid',
         'border-width': '1px',
-        'color': admin ? color : ckey_color,
+        color: admin ? color : ckey_color,
       }}
       onClick={() => act('get_player_panel', { ckey: ckey })}
       tooltip={text}
-      tooltipPosition="bottom-start">
+      tooltipPosition="bottom-start"
+    >
       <div color={ckey_color}>{ckey}</div>
     </Button>
   ) : (
@@ -170,8 +182,9 @@ const GetPlayerInfo = (props, context) => {
         'border-color': '#2185d0',
         'border-style': 'solid',
         'border-width': '1px',
-        'color': ckey_color,
-      }}>
+        color: ckey_color,
+      }}
+    >
       <div color={ckey_color}>{ckey}</div>
     </Button>
   );

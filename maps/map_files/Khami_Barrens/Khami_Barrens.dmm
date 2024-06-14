@@ -17248,9 +17248,6 @@
 	},
 /turf/open/floor/kutjevo/colors/purple,
 /area/khami_barrens/interior/village/mall)
-"rfo" = (
-/turf/open/floor/plating/kutjevo,
-/area/khami_barrens/interior/research_caves/research)
 "rfw" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 9
@@ -22110,7 +22107,7 @@
 /turf/open/floor/kutjevo/fake_wood,
 /area/khami_barrens/interior/village/company_offices/east)
 "vIF" = (
-/obj/structure/machinery/computer/cameras/wooden_tv/prop{
+/obj/structure/machinery/computer/cameras/wooden_tv/broadcast{
 	pixel_y = 27
 	},
 /obj/structure/machinery/disposal,
@@ -22320,10 +22317,6 @@
 	},
 /turf/open/auto_turf/sand/layer1,
 /area/khami_barrens/interior/ruin_caves)
-"vVn" = (
-/obj/structure/surface/rack,
-/turf/open/floor/kutjevo/colors/orange,
-/area/khami_barrens/interior/village/engineering)
 "vVy" = (
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 8
@@ -54737,7 +54730,7 @@ sRA
 xCM
 xuE
 bOQ
-rfo
+cHW
 kGU
 vpp
 cDV
@@ -54763,8 +54756,8 @@ aik
 vgg
 dMZ
 rKC
-rfo
-rfo
+cHW
+cHW
 ssw
 eUL
 eUL
@@ -54959,9 +54952,9 @@ vBh
 hwR
 xuE
 bOQ
-rfo
+cHW
 kGU
-rfo
+cHW
 cDV
 xuE
 pcS
@@ -54983,9 +54976,9 @@ xuE
 pgZ
 dRm
 iXp
-rfo
-rfo
-rfo
+cHW
+cHW
+cHW
 hnL
 ssw
 eUL
@@ -55204,9 +55197,9 @@ wGa
 xuE
 tba
 bhn
-rfo
-rfo
-rfo
+cHW
+cHW
+cHW
 guZ
 guZ
 ssw
@@ -55403,9 +55396,9 @@ sRA
 hwR
 xuE
 vEq
-rfo
+cHW
 voE
-rfo
+cHW
 cHW
 xuE
 yao
@@ -55425,11 +55418,11 @@ oBQ
 qnI
 ivM
 nUV
-rfo
-rfo
-rfo
+cHW
+cHW
+cHW
 iYE
-rfo
+cHW
 obR
 ssw
 eUL
@@ -55627,7 +55620,7 @@ xuE
 vEq
 qnx
 voE
-rfo
+cHW
 cHW
 xuE
 sHU
@@ -55647,11 +55640,11 @@ bsR
 hxP
 ivM
 nUV
-rfo
+cHW
 azY
-rfo
+cHW
 iYE
-rfo
+cHW
 lPh
 ssw
 eUL
@@ -55873,7 +55866,7 @@ dwE
 mJL
 lzp
 obR
-rfo
+cHW
 lPc
 ssw
 eUL
@@ -59560,7 +59553,7 @@ fhO
 cmx
 ujN
 bmF
-vVn
+aUr
 apN
 rBG
 iJb
