@@ -1,4 +1,0 @@
-author: "FelineMistress"
-delete-after: True
-changes:
-  - bugfix: "изменено место хранения конфигурационных файлов чатфильтра"
