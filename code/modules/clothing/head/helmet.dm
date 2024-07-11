@@ -676,7 +676,6 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 	var/list/total_visors = built_in_visors + inserted_visors
 
 	if(!length(total_visors))
-		to_chat(user, SPAN_WARNING("There are no visors to swap to."))
 		return FALSE
 
 	if(active_visor)
@@ -689,11 +688,6 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 					var/obj/item/device/helmet_visor/next_visor = total_visors[iterator + 1]
 
 					if(!isnull(GLOB.huds[next_visor.hud_type]?.hudusers[user]))
-						iterator++
-						skipped_hud = TRUE
-						continue
-
-					if(!next_visor.can_toggle(user))
 						iterator++
 						skipped_hud = TRUE
 						continue
@@ -712,16 +706,11 @@ GLOBAL_LIST_INIT(allowed_helmet_items, list(
 		if(!isnull(GLOB.huds[new_visor.hud_type]?.hudusers[user]))
 			continue
 
-		if(!new_visor.can_toggle(user))
-			continue
-
 		active_visor = new_visor
 		toggle_visor(user)
 		return active_visor
 
-	to_chat(user, SPAN_WARNING("There are no visors to swap to currently."))
 	return FALSE
-
 /datum/action/item_action/cycle_helmet_huds/New(Target, obj/item/holder)
 	. = ..()
 	name = "Cycle helmet HUD"
