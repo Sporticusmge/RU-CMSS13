@@ -5,9 +5,9 @@
 	name = "\improper SOF Armor"
 	desc = "A heavily customized suit of M3 armor. Used by Marine Raiders."
 	icon_state = "marsoc"
-	armor_melee = CLOTHING_ARMOR_HIGH
-	armor_bullet = CLOTHING_ARMOR_HIGH
-	armor_bomb = CLOTHING_ARMOR_VERYHIGH
+	armor_melee = CLOTHING_ARMOR_HIGHPLUS
+	armor_bullet = CLOTHING_ARMOR_VERYHIGHPLUS
+	armor_bomb = CLOTHING_ARMOR_VERYHIGHPLUS
 	armor_bio = CLOTHING_ARMOR_MEDIUMLOW
 	armor_rad = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_internaldamage = CLOTHING_ARMOR_MEDIUMHIGH
@@ -28,9 +28,9 @@
 	name = "\improper M4 pattern PMC armor"
 	desc = "A modification of the standard Armat Systems M3 armor. Designed for high-profile security operators and corporate mercenaries in mind."
 	icon_state = "pmc_armor"
-	armor_bullet = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_bullet = CLOTHING_ARMOR_HIGHPLUS
 	armor_energy = CLOTHING_ARMOR_MEDIUMLOW
-	armor_bomb = CLOTHING_ARMOR_MEDIUM
+	armor_bomb = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_rad = CLOTHING_ARMOR_MEDIUM
 	storage_slots = 2
 	slowdown = SLOWDOWN_ARMOR_LIGHT
@@ -63,9 +63,9 @@
 	desc = "A modification of the standard Armat Systems M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. Has some armor plating removed for extra mobility."
 	icon_state = "pmc_sniper"
 	armor_melee = CLOTHING_ARMOR_MEDIUMLOW
-	armor_bullet = CLOTHING_ARMOR_MEDIUM
+	armor_bullet = CLOTHING_ARMOR_HIGH
 	armor_energy = CLOTHING_ARMOR_MEDIUMLOW
-	armor_bomb = CLOTHING_ARMOR_MEDIUMLOW
+	armor_bomb = CLOTHING_ARMOR_MEDIUM
 	armor_rad = CLOTHING_ARMOR_MEDIUM
 	armor_internaldamage = CLOTHING_ARMOR_MEDIUMLOW
 	slowdown = SLOWDOWN_ARMOR_VERY_LIGHT
@@ -100,9 +100,9 @@
 /obj/item/clothing/suit/storage/marine/veteran/pmc/sniper
 	name = "\improper M4 pattern PMC sniper armor"
 	icon_state = "pmc_sniper"
-	armor_bullet = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_bullet = CLOTHING_ARMOR_HIGHPLUS
 	armor_energy = CLOTHING_ARMOR_MEDIUMLOW
-	armor_bomb = CLOTHING_ARMOR_MEDIUM
+	armor_bomb = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_rad = CLOTHING_ARMOR_MEDIUM
 	armor_internaldamage = CLOTHING_ARMOR_MEDIUM
 	flags_inv_hide = HIDELOWHAIR
@@ -135,10 +135,10 @@
 	icon_state = "heavy_armor"
 	flags_inventory = BLOCKSHARPOBJ|BLOCK_KNOCKDOWN|SMARTGUN_HARNESS
 	flags_atom = NO_SNOW_TYPE|NO_NAME_OVERRIDE
-	armor_bullet = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_bullet = CLOTHING_ARMOR_VERYHIGH
 	armor_laser = CLOTHING_ARMOR_MEDIUMLOW
 	armor_energy = CLOTHING_ARMOR_MEDIUMLOW
-	armor_bomb = CLOTHING_ARMOR_MEDIUM
+	armor_bomb = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_rad = CLOTHING_ARMOR_MEDIUM
 	item_state_slots = list(WEAR_JACKET = "heavy_armor")
 
@@ -146,15 +146,15 @@
 	name = "\improper M5Xg exoskeleton gunner armor"
 	desc = "A complex system of overlapping plates intended to render the wearer all but impervious to small arms fire. A passive exoskeleton supports the weight of the armor, allowing a human to carry its massive bulk. This variant is designed to support a M56 Smartgun."
 	icon_state = "commando_armor"
-	slowdown = SLOWDOWN_ARMOR_MEDIUM
+	slowdown = SLOWDOWN_ARMOR_HEAVY
 	movement_compensation = SLOWDOWN_ARMOR_VERY_HEAVY
-	armor_melee = CLOTHING_ARMOR_HIGH
-	armor_bullet = CLOTHING_ARMOR_ULTRAHIGH
+	armor_melee = CLOTHING_ARMOR_ULTRAHIGH
+	armor_bullet = CLOTHING_ARMOR_GIGAHIGH
 	armor_laser = CLOTHING_ARMOR_MEDIUM
-	armor_energy = CLOTHING_ARMOR_MEDIUM
-	armor_bomb = CLOTHING_ARMOR_VERYHIGH
-	armor_rad = CLOTHING_ARMOR_MEDIUMHIGH
-	armor_internaldamage = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_energy = CLOTHING_ARMOR_HIGH
+	armor_bomb = CLOTHING_ARMOR_ULTRAHIGH
+	armor_rad = CLOTHING_ARMOR_GIGAHIGH
+	armor_internaldamage = CLOTHING_ARMOR_VERYHIGH
 	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_GROIN|BODY_FLAG_ARMS|BODY_FLAG_LEGS|BODY_FLAG_FEET
 	uniform_restricted = list(/obj/item/clothing/under/marine/veteran/pmc/commando)
 	item_state_slots = list(WEAR_JACKET = "commando_armor")
@@ -164,14 +164,14 @@
 	name = "\improper M5X exoskeleton armor"
 	desc = "A complex system of overlapping plates intended to render the wearer all but impervious to small arms fire. A passive exoskeleton supports the weight of the armor, allowing a human to carry its massive bulk."
 	icon_state = "commando_armor"
-	slowdown = SLOWDOWN_ARMOR_MEDIUM
+	slowdown = SLOWDOWN_ARMOR_HEAVY
 	movement_compensation = SLOWDOWN_ARMOR_VERY_HEAVY
-	armor_melee = CLOTHING_ARMOR_VERYHIGH
-	armor_bullet = CLOTHING_ARMOR_ULTRAHIGH
-	armor_energy = CLOTHING_ARMOR_MEDIUM
-	armor_bomb = CLOTHING_ARMOR_VERYHIGH
-	armor_rad = CLOTHING_ARMOR_MEDIUMHIGH
-	armor_internaldamage = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_melee = CLOTHING_ARMOR_ULTRAHIGH
+	armor_bullet = CLOTHING_ARMOR_GIGAHIGH
+	armor_energy = CLOTHING_ARMOR_HIGH
+	armor_bomb = CLOTHING_ARMOR_ULTRAHIGH
+	armor_rad = CLOTHING_ARMOR_GIGAHIGH
+	armor_internaldamage = CLOTHING_ARMOR_VERYHIGH
 	flags_inventory = BLOCK_KNOCKDOWN
 	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_GROIN|BODY_FLAG_ARMS|BODY_FLAG_LEGS|BODY_FLAG_FEET
 	uniform_restricted = list(/obj/item/clothing/under/marine/veteran/pmc/commando)
@@ -201,10 +201,10 @@
 	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_GROIN|BODY_FLAG_ARMS|BODY_FLAG_LEGS //Makes no sense but they need leg/arm armor too.
 	armor_melee = CLOTHING_ARMOR_HIGH
 	armor_bullet = CLOTHING_ARMOR_HIGHPLUS
-	armor_energy = CLOTHING_ARMOR_MEDIUMLOW
-	armor_bomb = CLOTHING_ARMOR_HIGH
+	armor_energy = CLOTHING_ARMOR_HIGH
+	armor_bomb = CLOTHING_ARMOR_VERYHIGH
 	armor_rad = CLOTHING_ARMOR_MEDIUM
-	storage_slots = 2
+	storage_slots = 3
 	light_range = 7
 	slowdown = SLOWDOWN_ARMOR_VERY_LIGHT
 	uniform_restricted = list(/obj/item/clothing/under/marine/veteran/dutch)
@@ -252,10 +252,10 @@
 	max_heat_protection_temperature = HELMET_MAX_HEAT_PROT
 	blood_overlay_type = "armor"
 	armor_melee = CLOTHING_ARMOR_MEDIUM
-	armor_bullet = CLOTHING_ARMOR_MEDIUM
+	armor_bullet = CLOTHING_ARMOR_HIGH
 	armor_laser = CLOTHING_ARMOR_MEDIUMLOW
 	armor_energy = CLOTHING_ARMOR_MEDIUMLOW
-	armor_bomb = CLOTHING_ARMOR_MEDIUM
+	armor_bomb = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_bio = CLOTHING_ARMOR_MEDIUM
 	armor_rad = CLOTHING_ARMOR_MEDIUM
 	armor_internaldamage = CLOTHING_ARMOR_MEDIUMHIGH
@@ -267,7 +267,7 @@
 	name = "\improper UM5 personal armor"
 	desc = "Standard body armor of the UPP military, the UM5 (Union Medium MK5) is a medium body armor, roughly on par with the M3 pattern body armor in service with the USCM, specialized towards ballistics protection. Unlike the M3, however, the plate has a heavier neckplate. This has earned many UA members to refer to UPP soldiers as 'tin men'."
 	icon_state = "upp_armor"
-	armor_bullet = CLOTHING_ARMOR_HIGH
+	armor_bullet = CLOTHING_ARMOR_VERYHIGH
 	armor_energy = CLOTHING_ARMOR_MEDIUM
 	armor_bio = CLOTHING_ARMOR_MEDIUMLOW
 	armor_rad = CLOTHING_ARMOR_MEDIUMLOW
@@ -319,10 +319,10 @@
 	flags_inventory = BLOCKSHARPOBJ|BLOCK_KNOCKDOWN
 	flags_armor_protection = BODY_FLAG_ALL_BUT_HEAD
 	armor_melee = CLOTHING_ARMOR_MEDIUMHIGH
-	armor_bullet = CLOTHING_ARMOR_HIGHPLUS
+	armor_bullet = CLOTHING_ARMOR_ULTRAHIGH
 	armor_laser = CLOTHING_ARMOR_MEDIUMLOW
 	armor_energy = CLOTHING_ARMOR_MEDIUM
-	armor_bomb = CLOTHING_ARMOR_HIGH
+	armor_bomb = CLOTHING_ARMOR_HIGHPLUS
 	armor_bio = CLOTHING_ARMOR_MEDIUM
 	armor_rad = CLOTHING_ARMOR_MEDIUMLOW
 	armor_internaldamage = CLOTHING_ARMOR_HIGHPLUS
@@ -408,7 +408,7 @@
 	slowdown = SLOWDOWN_ARMOR_LIGHT
 	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_GROIN|BODY_FLAG_LEGS
 	armor_melee = CLOTHING_ARMOR_MEDIUMHIGH
-	armor_bullet = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_bullet = CLOTHING_ARMOR_HIGHPLUS
 	armor_energy = CLOTHING_ARMOR_MEDIUMLOW
 	storage_slots = 2
 	uniform_restricted = list(/obj/item/clothing/under/marine/veteran/freelancer)
@@ -416,7 +416,7 @@
 //this one is for CLF
 /obj/item/clothing/suit/storage/militia
 	name = "colonial militia hauberk"
-	desc = "The hauberk of a colonist militia member, created from boiled leather and some modern armored plates. While not the most powerful form of armor, and primitive compared to most modern suits of armor, it gives the wearer almost perfect mobility, which suits the needs of the local colonists. It is also quick to don, easy to hide, and cheap to produce in large workshops."
+	desc = "The hauberk of a colonist militia member, created from boiled leather and some low-grade armor plates, doesn't provide even slighty protection, can protect only against insects."
 	icon = 'icons/obj/items/clothing/cm_suits.dmi'
 	icon_state = "rebel_armor"
 	item_icons = list(
@@ -426,15 +426,15 @@
 	slowdown = SLOWDOWN_ARMOR_VERY_LIGHT
 	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_GROIN|BODY_FLAG_LEGS|BODY_FLAG_ARMS
 	movement_compensation = SLOWDOWN_ARMOR_MEDIUM
-	armor_melee = CLOTHING_ARMOR_MEDIUM
-	armor_bullet = CLOTHING_ARMOR_MEDIUMLOW
-	armor_laser = CLOTHING_ARMOR_MEDIUMLOW
-	armor_energy = CLOTHING_ARMOR_MEDIUMLOW
-	armor_bomb = CLOTHING_ARMOR_MEDIUM
+	armor_melee = CLOTHING_ARMOR_MEDIUMLOW
+	armor_bullet = CLOTHING_ARMOR_VERYLOW
+	armor_laser = CLOTHING_ARMOR_VERYLOW
+	armor_energy = CLOTHING_ARMOR_VERYLOW
+	armor_bomb = CLOTHING_ARMOR_VERYLOW
 	armor_bio = CLOTHING_ARMOR_MEDIUMLOW
-	armor_rad = CLOTHING_ARMOR_MEDIUM
-	armor_internaldamage = CLOTHING_ARMOR_MEDIUM
-	storage_slots = 2
+	armor_rad = CLOTHING_ARMOR_VERYLOW
+	armor_internaldamage = CLOTHING_ARMOR_NONE
+	storage_slots = 3
 	uniform_restricted = list(/obj/item/clothing/under/colonist)
 	allowed = list(
 		/obj/item/weapon/gun,
@@ -792,9 +792,9 @@
 /obj/item/clothing/suit/storage/marine/veteran/royal_marine/light //RMC Rifleman Armor
 	icon_state = "rmc_light"
 	item_state = "rmc_light"
-	armor_bullet = CLOTHING_ARMOR_MEDIUMHIGH
+	armor_bullet = CLOTHING_ARMOR_HIGHPLUS
 	armor_energy = CLOTHING_ARMOR_MEDIUMLOW
-	armor_bomb = CLOTHING_ARMOR_MEDIUM
+	armor_bomb = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_rad = CLOTHING_ARMOR_MEDIUM
 	slowdown = SLOWDOWN_ARMOR_LIGHT
 
@@ -816,8 +816,8 @@
 	icon_state = "rmc_pointman"
 	item_state = "rmc_pointman"
 	armor_melee = CLOTHING_ARMOR_HIGH
-	armor_bullet = CLOTHING_ARMOR_HIGHPLUS
-	armor_bomb = CLOTHING_ARMOR_HIGHPLUS
+	armor_bullet = CLOTHING_ARMOR_VERYHIGHPLUS
+	armor_bomb = CLOTHING_ARMOR_VERYHIGH
 	armor_bio = CLOTHING_ARMOR_MEDIUM
 	armor_rad = CLOTHING_ARMOR_MEDIUM
 	armor_internaldamage = CLOTHING_ARMOR_MEDIUMHIGH
@@ -836,8 +836,8 @@
 	item_state = "cbrn"
 	slowdown = SLOWDOWN_ARMOR_HEAVY
 	armor_melee = CLOTHING_ARMOR_MEDIUM
-	armor_bullet = CLOTHING_ARMOR_MEDIUM
-	armor_bomb = CLOTHING_ARMOR_MEDIUM
+	armor_bullet = CLOTHING_ARMOR_HIGH
+	armor_bomb = CLOTHING_ARMOR_MEDIUMHIGH
 	armor_bio = CLOTHING_ARMOR_LOW
 	armor_rad =CLOTHING_ARMOR_MEDIUMLOW
 	armor_internaldamage = CLOTHING_ARMOR_LOW
