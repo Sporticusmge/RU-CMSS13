@@ -9,7 +9,7 @@ Royal Marines Commando
 /datum/skills/rmc
 	name = "Royal Marines Commando"
 	skills = list(
-		SKILL_CQC = SKILL_CQC_TRAINED,
+		SKILL_CQC = SKILL_CQC_EXPERT,
 		SKILL_FIREARMS = SKILL_FIREARMS_EXPERT,
 		SKILL_POLICE = SKILL_POLICE_SKILLED,
 		SKILL_FIREMAN = SKILL_FIREMAN_SKILLED,
@@ -23,7 +23,7 @@ Royal Marines Commando
 /datum/skills/rmc/specialist
 	name = "Royal Marines Commando Specialist"
 	skills = list(
-		SKILL_CQC = SKILL_CQC_TRAINED,
+		SKILL_CQC = SKILL_CQC_EXPERT,
 		SKILL_FIREARMS = SKILL_FIREARMS_EXPERT,
 		SKILL_POLICE = SKILL_POLICE_SKILLED,
 		SKILL_FIREMAN = SKILL_FIREMAN_SKILLED,
@@ -39,7 +39,7 @@ Royal Marines Commando
 /datum/skills/rmc/smartgun
 	name = "Royal Marines Commando Smartgunner"
 	skills = list(
-		SKILL_CQC = SKILL_CQC_TRAINED,
+		SKILL_CQC = SKILL_CQC_EXPERT,
 		SKILL_FIREARMS = SKILL_FIREARMS_EXPERT,
 		SKILL_POLICE = SKILL_POLICE_SKILLED,
 		SKILL_FIREMAN = SKILL_FIREMAN_SKILLED,
@@ -56,7 +56,7 @@ Royal Marines Commando
 /datum/skills/rmc/leader
 	name = "Royal Marines Commando Leader"
 	skills = list(
-		SKILL_CQC = SKILL_CQC_SKILLED,
+		SKILL_CQC = SKILL_CQC_EXPERT,
 		SKILL_FIREARMS = SKILL_FIREARMS_EXPERT,
 		SKILL_POLICE = SKILL_POLICE_SKILLED,
 		SKILL_FIREMAN = SKILL_FIREMAN_SKILLED,
