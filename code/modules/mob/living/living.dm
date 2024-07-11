@@ -235,10 +235,10 @@
 	// Chance for person to break free of grip, defaults to 50.
 	var/chance = 50
 	if(src_is_strong && !isxeno(pulledby)) // no extra chance to resist warrior grabs
-		chance += 30 // you are strong, you can overpower them easier
+		chance += 45 // you are strong, you can overpower them easier
 	if(pulledby_is_strong)
-		chance -= 30 // stronger grip
-	// above code means that if you are super strong, 80% chance to resist, otherwise, 20 percent. if both are super strong, standard 50.
+		chance -= 45 // stronger grip
+	// above code means that if you are super strong, 95% chance to resist, otherwise, 5 percent. if both are super strong, standard 50.
 
 	if(prob(chance))
 		playsound(loc, 'sound/weapons/thudswoosh.ogg', 25, 1, 7)
