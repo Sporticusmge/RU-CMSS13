@@ -60,11 +60,9 @@
 						revive_grace_period += 7 SECONDS
 						attacking_mob.visible_message(SPAN_NOTICE("<b>[attacking_mob]</b> performs <b>CPR</b> on <b>[src]</b>."),
 							SPAN_HELPFUL("You perform <b>CPR</b> on <b>[src]</b>."))
-						balloon_alert(attacking_mob, "you perform cpr")
 					else
 						attacking_mob.visible_message(SPAN_NOTICE("<b>[attacking_mob]</b> fails to perform CPR on <b>[src]</b>."),
 							SPAN_HELPFUL("You <b>fail</b> to perform <b>CPR</b> on <b>[src]</b>. Incorrect rhythm. Do it <b>slower</b>."))
-						balloon_alert(attacking_mob, "incorrect rhythm. do it slower")
 					cpr_cooldown = world.time + 7 SECONDS
 			cpr_attempt_timer = 0
 			return 1
@@ -100,7 +98,7 @@
 
 			var/extra_cqc_dmg = 0 //soft maximum of 5, this damage is added onto the final value depending on how much cqc skill you have
 			if(attacking_mob.skills)
-				extra_cqc_dmg = attacking_mob.skills?.get_skill_level(SKILL_CQC)
+				extra_cqc_dmg = attacking_mob.skills?.get_skill_level(SKILL_CQC) * 2.5
 			var/raw_damage = 0 //final value, gets absorbed by the armor and then deals the leftover to the mob
 
 			var/obj/limb/affecting = get_limb(rand_zone(attacking_mob.zone_selected, 70))
@@ -109,7 +107,6 @@
 			playsound(loc, attack.attack_sound, 25, 1)
 
 			visible_message(SPAN_DANGER("[attacking_mob] [pick(attack.attack_verb)]ed [src]!"), null, null, 5)
-
 			raw_damage = attack.damage + extra_cqc_dmg
 			var/final_damage = armor_damage_reduction(GLOB.marine_melee, raw_damage, armor, FALSE) // no penetration from punches
 			apply_damage(final_damage, BRUTE, affecting, sharp=attack.sharp, edge = attack.edge)
@@ -161,8 +158,8 @@
 			var/disarm_chance = rand(1, 100)
 			var/attacker_skill_level = attacking_mob.skills ? attacking_mob.skills.get_skill_level(SKILL_CQC) : SKILL_CQC_MAX // No skills, so assume max
 			var/defender_skill_level = skills ? skills.get_skill_level(SKILL_CQC) : SKILL_CQC_MAX // No skills, so assume max
-			disarm_chance -= 5 * attacker_skill_level
-			disarm_chance += 5 * defender_skill_level
+			disarm_chance -= 10 * attacker_skill_level
+			disarm_chance += 10 * defender_skill_level
 
 			if(disarm_chance <= 25)
 				var/strength = 2 + max((attacker_skill_level - defender_skill_level), 0)
@@ -193,6 +190,12 @@
 /mob/living/carbon/human/help_shake_act(mob/living/carbon/M)
 	//Target is us
 	if(src == M)
+		if(holo_card_color) //if we have a triage holocard printed on us, we remove it.
+			holo_card_color = null
+			update_targeted()
+			visible_message(SPAN_NOTICE("[src] removes the holo card on [gender==MALE?"himself":"herself"]."), \
+				SPAN_NOTICE("You remove the holo card on yourself."), null, 3)
+			return
 		check_for_injuries()
 		return
 
@@ -209,10 +212,7 @@
 		if(client)
 			sleeping = max(0,src.sleeping-5)
 		if(!sleeping)
-			if(is_dizzy)
-				to_chat(M, SPAN_WARNING("[src] looks dizzy. Maybe you should let [t_him] rest a bit longer."))
-			else
-				set_resting(FALSE)
+			set_resting(FALSE)
 		M.visible_message(SPAN_NOTICE("[M] shakes [src] trying to wake [t_him] up!"), \
 			SPAN_NOTICE("You shake [src] trying to wake [t_him] up!"), null, 4)
 	else if(HAS_TRAIT(src, TRAIT_INCAPACITATED))
