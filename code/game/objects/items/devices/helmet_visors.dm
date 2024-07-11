@@ -200,7 +200,7 @@
 	toggle_off_sound = 'sound/handling/toggle_nv2.ogg'
 
 	/// The internal battery for the visor
-	var/obj/item/cell/high/power_cell
+	var/obj/item/cell/super/power_cell
 
 	/// About 10 minutes active use charge (hypothetically)
 	var/power_use = 33
